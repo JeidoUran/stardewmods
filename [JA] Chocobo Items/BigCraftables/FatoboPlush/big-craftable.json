@@ -1,0 +1,49 @@
+{
+  "Name": "Fat Chocobo Plush",
+  "Description": "A really big and cute(?) plush.",
+  "Price": 0,
+  "Category": "Crafting",
+  "Recipe":
+  {
+    "ResultCount": 1,
+    "Ingredients": [
+        {
+            "Object": "Chocobo Feather",
+            "Count": 40,
+        },
+        {
+            "Object": 440,
+            "Count": 10,
+        },
+    ],
+    "IsDefault": true,
+  },
+  "NameLocalization":
+  {
+    // "es": "",
+    // "ko": "",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    // "zh":"",
+  },
+  "DescriptionLocalization":
+  {
+    // "es": "",
+    // "ko": "",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    // "zh":"",
+  },
+}
