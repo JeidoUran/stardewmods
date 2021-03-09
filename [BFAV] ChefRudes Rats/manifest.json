@@ -1,0 +1,11 @@
+﻿{
+	"Name": "ChefRude's Rats for BFAV",
+	"Author": "ChefRude",
+	"Version": "1.0.0",
+	"Description": "Adds a variety of resourceful Rats to the game.",
+	"UniqueID": "ChefRude.BFAV.Rats",
+	"UpdateKeys": [ "Nexus:6791" ],
+	"ContentPackFor": {
+      "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

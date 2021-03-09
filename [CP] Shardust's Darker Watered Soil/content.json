@@ -1,0 +1,44 @@
+{
+    "Format": "1.5",
+	
+	"ConfigSchema": {
+	
+	    "hoeDirt" : {"AllowValues" : "True, False"},
+		"hoeDirtDark" : {"AllowValues" : "True, False"},
+		"hoeDirtSnow" : {"AllowValues" : "True, False"},
+	    
+		},
+		
+	
+	    "Changes": [
+		
+	   {
+        "Action": "EditImage",
+          "Target": "TerrainFeatures/hoeDirt",
+          "FromFile": "assets/hoeDirt.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "When": {"hoeDirt": "True"},
+		  "Patchmode": "Replace",
+	   },
+	   {
+        "Action": "EditImage",
+          "Target": "TerrainFeatures/hoeDirtDark",
+          "FromFile": "assets/hoeDirtDark.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "When": {"hoeDirtDark": "True"},
+		  "Patchmode": "Replace",
+	   },
+	   {
+        "Action": "EditImage",
+          "Target": "TerrainFeatures/hoeDirtSnow",
+          "FromFile": "assets/hoeDirtSnow.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "When": {"hoeDirtSnow": "True"},
+		  "Patchmode": "Replace",
+	   },
+	   
+	 ]
+}

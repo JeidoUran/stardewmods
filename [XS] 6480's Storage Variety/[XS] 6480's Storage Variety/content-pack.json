@@ -1,0 +1,10 @@
+{
+  "Name": "6480's Storage Variety",
+  "Description": "Adds more storage items to the game.",
+  "Author": "6480",
+  "Version": "2.0.5",
+  "UniqueID": "6480.StorageVariety",
+  "UpdateKeys": [
+    "Nexus:7807"
+  ]
+}

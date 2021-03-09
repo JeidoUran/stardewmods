@@ -1,0 +1,14 @@
+{
+   "Name": "Hairstylescombined",
+   "Author": "Lumi, Jeido",
+   "Version": "1.1.0",
+   "Description": "Persona 5 Hairstyle from Lumi converted to content patch",
+   "UniqueID": "P5Hairstyle-CP",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
+
+// Credits to Lumi for the original hairstyles

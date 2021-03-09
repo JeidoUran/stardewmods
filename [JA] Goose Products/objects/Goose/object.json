@@ -1,0 +1,47 @@
+{
+    "Name": "Goose",
+    "Description": "The meat of a whole goose. It's rich in fat.",
+    "Category": "Meat",
+    "Edibility": 100,
+    "Price": 900,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+		"Like": ["Gus", "Kent", "Jodi", "Linus", "Pam"],
+        "Dislike": ["Abigail","Haley", "Wizard", "Sam", "Haley"],
+		"Hate": ["Shane", "Leah", "Jas", "Vincent", "Marnie", "Penny"]
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "Gans",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "Das Fleisch einer ganzen Gans. Es ist sehr fetthaltig.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_pink",
+    ],
+	"EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD"
+}

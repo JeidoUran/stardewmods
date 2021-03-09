@@ -1,0 +1,11 @@
+{
+  "Name": "Chocobo Items",
+  "Author": "Jeido",
+  "Version": "1.1.0",
+  "Description": "Adds Chocobo Items for BFAV Chocobos",
+  "UniqueID": "Jeido.ChocoboItems",
+  "MinimumApiVersion": "2.10",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

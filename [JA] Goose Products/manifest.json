@@ -1,0 +1,10 @@
+{
+  "Name": "[JA] Goose Products",
+  "Author": "Luzze",
+  "Version": "1.1",
+  "Description": "Adds products for geese",
+  "UniqueID": "Luzze.GooseProducts",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}

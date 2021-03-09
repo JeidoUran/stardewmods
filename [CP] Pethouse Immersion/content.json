@@ -1,0 +1,159 @@
+{ 
+	"Format": "1.19",
+	"ConfigSchema": {
+		"Petbowl": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable Petbowl replacement.",
+		},
+		"Starblue Valley Patch": {
+			"AllowValues": "Auto, Disable",
+			"Default": "Auto",
+			"Description": "Enable Starblue Valley Patch.",
+		},
+	},
+	"DynamicTokens": [
+	{
+		"Name": "Blue",
+		"Value": "false",
+		"When": {
+			"Starblue Valley Patch": "Auto",
+		}
+	},
+	{
+		"Name": "Blue",
+		"Value": "true",
+		"When": {
+			"HasMod": "Lita.StarblueValley",
+			"Starblue Valley Patch": "Auto",
+		}
+	},
+	{
+		"Name": "Blue",
+		"Value": "false",
+		"When": {
+			"Starblue Valley Patch": "Disable",
+		}
+	},
+	],
+	"Changes": [
+	{
+		"LogName": "Pethouse - Loading Pethouse Roof Left",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Roof Left}}",
+        "FromFile": "assets/{{Season}}_pethouse.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Roof Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Roof Left}}", "Width": 16, "Height": 16 },
+        "When": {
+			"Blue": "false"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Roof Right",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Roof Right}}",
+        "FromFile": "assets/{{Season}}_pethouse.png",
+        "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Roof Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Roof Right}}", "Width": 16, "Height": 16 },
+        "When": {
+			"Blue": "false"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Wall Left",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Wall Left}}",
+        "FromFile": "assets/{{Season}}_pethouse.png",
+        "FromArea": { "X": 0, "Y": 16, "Width": 16, "Height": 32 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Wall Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Wall Left}}", "Width": 16, "Height": 32 },
+        "When": {
+			"Blue": "false"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Wall Right",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Wall Right}}",
+        "FromFile": "assets/{{Season}}_pethouse.png",
+        "FromArea": { "X": 16, "Y": 16, "Width": 16, "Height": 32 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Wall Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Wall Right}}", "Width": 16, "Height": 32 },
+        "When": {
+			"Blue": "false"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Petbowl",
+		"Action": "EditImage",
+        "Target": "Maps/{{Season}}_outdoorsTileSheet",
+        "FromFile": "assets/{{Season}}_bowl.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+			"Blue": "false"
+		}
+	},
+	  
+	  
+	  
+	  //Starblue Fantasy Patch
+	{
+        "LogName": "Pethouse - Loading Pethouse Roof Left for Starblue Valley",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Roof Left}}",
+        "FromFile": "assets/{{Season}}_pethouseB.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Roof Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Roof Left}}", "Width": 16, "Height": 16 },
+        "When": {
+			"Blue": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Roof Right for Starblue Valley",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Roof Right}}",
+        "FromFile": "assets/{{Season}}_pethouseB.png",
+        "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Roof Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Roof Right}}", "Width": 16, "Height": 16 },
+        "When": {
+			"Blue": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Wall Left for Starblue Valley",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Wall Left}}",
+        "FromFile": "assets/{{Season}}_pethouseB.png",
+        "FromArea": { "X": 0, "Y": 16, "Width": 16, "Height": 32 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Wall Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Wall Left}}", "Width": 16, "Height": 32 },
+        "When": {
+			"Blue": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Wall Right for Starblue Valley",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pethouse Wall Right}}",
+        "FromFile": "assets/{{Season}}_pethouseB.png",
+        "FromArea": { "X": 16, "Y": 16, "Width": 16, "Height": 32 },
+        "ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pethouse Wall Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pethouse Wall Right}}", "Width": 16, "Height": 32 },
+        "When": {
+			"Blue": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Petbowl for Starblue Valley",
+        "Action": "EditImage",
+        "Target": "Maps/{{Season}}_outdoorsTileSheet",
+        "FromFile": "assets/{{Season}}_bowlB.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+			"Blue": "true"
+		}
+	}
+	],
+}
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Dimensional Portal",
+	"Description": "You can store items in a pocket dimension. How convenient!",
+	"ProvidesLight": true,
+	"Recipe": {
+		"Ingredients": [
+			{
+				"Object": 768,
+				"Count": 25
+			},
+			{
+				"Object": 769,
+				"Count": 25
+			},
+			{
+				"Object": 386,
+				"Count": 10
+			}
+		],
+		"IsDefault": false,
+		"PurchaseFrom": "Krobus",
+		"PurchasePrice": 15000,
+		"CanPurchase": true,
+		"PurchaseRequirements": null
+	},
+	"NameLocalization": {
+	        "ru": "Пространственный портал",
+	        "pt": "Portal dimensional",
+		"fr": "Portail dimensionnel",
+	},
+	"DescriptionLocalization": {
+	        "ru": "Вы можете складывать предметы в карманное измерение. Как удобно!",
+	        "pt": "Você pode guardar itens em uma dimensão de bolso. Que praticidade!",
+		"fr": "Vous pouvez ranger les objets dans une dimension alternative. Pratique !",
+	}
+}

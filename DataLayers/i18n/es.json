@@ -1,0 +1,71 @@
+﻿{
+    // accessible
+    "accessible.name": "Accesible",
+    "accessible.clear": "Despejado",
+    "accessible.occupied": "Ocupado",
+    "accessible.impassable": "Intransitable",
+    "accessible.warp": "Warp",
+
+    // buildable
+    "buildable.name": "Edificable",
+    "buildable.buildable": "Puede Construir aquí",
+    "buildable.occupied": "Ocupado",
+    "buildable.not-buildable": "No puede Construir aquí",
+
+    // coverage: bee houses
+    "bee-houses.name": "Cobertura: Casas de Abejas",
+    "bee-houses.range": "Rango de la Flor",
+
+    // coverage: Junimo huts
+    "junimo-huts.name": "Cobertura: Chozas Junimo",
+    "junimo-huts.can-harvest": "Pueden cosechar",
+    "junimo-huts.cannot-harvest": "No pueden cosechar",
+
+    // coverage: scarecrows
+    "scarecrows.name": "Cobertura: Espantapájaros",
+    "scarecrows.protected": "Protegido",
+    "scarecrows.exposed": "Expuesto",
+
+    // coverage: sprinklers
+    "sprinklers.name": "Cobertura: Aspersores",
+    "sprinklers.covered": "Cubierto",
+    "sprinklers.dry-crops": "Cultivos Secos",
+
+    // crops: harvest
+    "crop-harvest.name": "Cultivos: Listo para Cosechar",
+    "crop-harvest.ready": "Listo",
+    "crop-harvest.not-ready": "No Listo",
+    "crop-harvest.not-enough-time": "Sin Tiempo Suficiente",
+
+    // crops: watered
+    "crop-water.name": "Cultivos: Regado",
+    "crop-water.watered": "Cultivo Regado",
+    "crop-water.dry": "Cultivos Seco",
+
+    // crops: water for paddy crops
+    "crop-paddy-water.name": "Cultivos: Agua para Cultivos de Arroz",
+    "crop-paddy-water.in-range": "Cerca del Agua",
+    "crop-paddy-water.not-in-range": "Tierra Seca",
+
+    // crops: fertilized
+    "crop-fertilizer.name": "Cultivos: Fertilizados",
+    "crop-fertilizer.fertilizer": "Fertilizado",
+    "crop-fertilizer.retaining-soil": "Reteniendo Suelo",
+    "crop-fertilizer.speed-gro": "Creciendo con Velocidad",
+
+    // machine processing
+    "machines.name": "Máquinas de Procesamiento",
+    "machines.empty": "Vacío",
+    "machines.processing": "Procesando",
+    "machines.finished": "Finalizado",
+
+    // tile grid
+    "grid.name": "Cuadrícula de Baldosas",
+
+    // tillable
+    "tillable.name": "Cultivable",
+    "tillable.tillable": "Cultivable",
+    "tillable.tilled": "Cultivado",
+    "tillable.occupied": "Ocupado",
+    "tillable.not-tillable": "No Cultivable"
+}

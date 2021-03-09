@@ -1,0 +1,15 @@
+[
+  {
+    "FarmhandName": "Leyh",
+    "TimeConnected": "2021-03-08T21:41:08.8227257+01:00",
+    "FarmhandID": 5783881392971959434,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.9.2",
+      "FarmhandSmapiVersion": "3.9.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [],
+    "VersionMismatch": []
+  }
+]

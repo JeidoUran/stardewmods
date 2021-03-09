@@ -1,0 +1,117 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Chocobos",
+			"Types": [
+				{
+					"Type": "Yellow Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Yellow Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Yellow.png",
+						"Baby": "assets/BabyChocobo.png"
+					},
+				},
+				{
+					"Type": "Celeste Green Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Celeste Green Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Celeste_Green_Crested.png",
+						"Baby": "assets/BabyChocoboCeleste.png"
+					},
+				},
+				{
+					"Type": "Lavender Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Lavender Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Lavender.png",
+						"Baby": "assets/BabyChocoboLavender.png"
+					},
+				},
+				{
+					"Type": "Coral Pink Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Coral Pink Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Coral_Pink.png",
+						"Baby": "assets/BabyChocoboCoral.png"
+					},
+				},
+				{
+					"Type": "Deepwood Green Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Deepwood Green Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Deepwood_Green.png",
+						"Baby": "assets/BabyChocoboDeepwood.png"
+					},
+				},
+				{
+					"Type": "Sugar Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Sugar Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Sugar.png",
+						"Baby": "assets/BabyChocoboSugar.png"
+					},
+				},
+				{
+					"Type": "Lime Green Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Lime Green Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Lime_Green.png",
+						"Baby": "assets/BabyChocoboLime.png"
+					},
+				},
+				{
+					"Type": "Charcoal Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Charcoal Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Charcoal.png",
+						"Baby": "assets/BabyChocoboCharcoal.png"
+					},
+				},
+				{
+					"Type": "Lucian Black Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/170/242/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Lucian Black Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Lucian_Black.png",
+						"Baby": "assets/BabyChocoboLucian.png"
+					},
+				},
+				{
+					"Type": "Rambunctious Chocobo",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/16/Chocobo Feather/seagulls/8/32/48/32/8/32/48/32/0/false/Barn/32/32/32/32/4/7/null/641/5000/Rambunctious Chocobo/Barn",
+					"Sprites": {
+						"Adult": "assets/Rambunctious.png",
+						"Baby": "assets/BabyChocoboRambunctious.png"
+					},
+				},
+			],
+			"Buildings": [
+			    "Big Barn",
+		        "Deluxe Barn"
+			],
+			"AnimalShop": {
+				"Name": "Chocobo",
+				"Description": "A large bird with a powerful kick and distinct odor",
+				"Icon": "assets\\animal_shop_chocobo.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

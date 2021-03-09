@@ -1,0 +1,12 @@
+{
+  "Name": "Better Mahogany Bench",
+  "Author": "engineheart",
+  "Version": "1.2",
+  "Description": "Fill the holes in the mahogany bench's backrest",
+  "UniqueID": "engineheart.BetterMahoganyBench",
+  "MinimumApiVersion": "3.8.0",
+  "UpdateKeys": ["Nexus:8189"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

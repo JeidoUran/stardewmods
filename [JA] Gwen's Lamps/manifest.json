@@ -1,0 +1,9 @@
+{
+	"Name": "JA_Lamps",
+	"Author": "Gweniaczek",
+	"Version": "1.0",
+	"Description": "4 lamps for JA matching Medieval buildings",
+	"UniqueID": "Gweniaczek.JA_Lamps",
+	"UpdateKeys": ["Nexus:4613"],
+	"ContentPackFor": { "UniqueID": "spacechase0.JsonAssets" },
+}

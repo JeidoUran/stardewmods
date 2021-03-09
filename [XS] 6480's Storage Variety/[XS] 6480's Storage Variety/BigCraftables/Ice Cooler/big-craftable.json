@@ -1,0 +1,29 @@
+﻿{
+	"Name": "Ice Cooler",
+	"Description": "A cooler full of ice to keep perishables fresh!",
+	"Recipe": {
+		"Ingredients": [
+			{
+				"Object": 167,
+				"Count": 1
+			},
+			{
+				"Object": 390,
+				"Count": 20
+			}
+		],
+		"IsDefault": false,
+		"SkillUnlockName": "Farming",
+		"SkillUnlockLevel": 3
+	},
+	"NameLocalization": {
+	        "ru": "Сумка-холодильник",
+	        "pt": "Cooler de gelo",
+		"fr": "Glacière",
+	},
+	"DescriptionLocalization": {
+	        "ru": "Содержит лед, чтобы скоропортящиеся продукты оставались свежими!",
+	        "pt": "Um cooler cheio de gelo para manter alimentos perecíveis frescos!",
+		"fr": "Une glacière pleine de glaçons pour garder vos denrées périssables au frais !",
+	}
+}

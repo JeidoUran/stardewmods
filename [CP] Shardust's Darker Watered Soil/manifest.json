@@ -1,0 +1,12 @@
+{
+   "Name": "Shardust's Darker Watered Soil",
+   "Author": "Shardust",
+   "Version": "2.0.0",
+   "Description": "Watered Soil will look Darker",
+   "UniqueID": "Shardust.Darker.Watered.Soil",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:1611" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

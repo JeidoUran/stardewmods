@@ -1,0 +1,11 @@
+{
+   "Name": "Obelisks",
+   "Author": "Gweniaczek",
+   "Version": "1.2",
+   "Description": "Statues as obelisks",
+   "UniqueID": "Gweniaczek.Obelisks",
+   "UpdateKeys": ["Nexus:4941"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      }
+}

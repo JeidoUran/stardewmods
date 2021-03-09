@@ -1,0 +1,12 @@
+{
+  "Name": "Seasonal Seed Packets",
+  "Author": "seaf0ampudding",
+  "Version": "1.1.0",
+  "Description": "i kept getting my seeds mixed up so i took it upon myself to fix it.",
+  "UniqueID": "seaf0ampudding.seasonalseeds",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:7725"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

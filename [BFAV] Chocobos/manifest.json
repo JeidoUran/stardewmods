@@ -1,0 +1,12 @@
+{
+  "Name": "BFAV Chocobos",
+  "Author": "Ciriun and Kitsutsune",
+  "Version": "0.1",
+  "Description": "Wark wark kwe-eeeh! *Actual Chocobo sounds not included*",
+  "UniqueID": "CiriunKitsu.BFAVChocobos",
+  "MinimumApiVersion": "2.5",
+   "UpdateKeys": [],
+	"ContentPackFor": {
+			"UniqueID": "Paritee.BetterFarmAnimalVariety"
+		}
+}

@@ -1,0 +1,13 @@
+{
+    "Name": "Tidy Crafting Menu",
+    "Author": "Boogie",
+    "Version": "1.5",
+    "UniqueID": "Boogie.Crafting",
+	"Description": "Changes icon position in crafting menu",
+    "MinimumApiVersion": "3.7.5",
+    "UpdateKeys": ["Nexus:7177" ],
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.0.0"
+    }
+}

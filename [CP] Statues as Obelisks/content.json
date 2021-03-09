@@ -1,0 +1,36 @@
+{
+	"Format": "1.19.0",
+
+	"ConfigSchema": {
+		"earthoption":{"AllowValues": "1, 2",
+					"Default": "1"},
+      },
+
+	"Changes": [
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Earth Obelisk",
+        "FromFile": "assets/{{earthoption}}/{{season}}.png",
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Water Obelisk",
+        "FromFile": "assets/4/{{season}}.png",
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Desert Obelisk",
+        "FromFile": "assets/3/{{season}}.png",
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Island Obelisk",
+        "FromFile": "assets/5/{{season}}.png",
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Maps/Farm Obelisk",
+        "FromFile": "assets/6/Farm Obelisk.png",
+        },
+     ]
+}

@@ -1,0 +1,38 @@
+{
+	"Format": "1.0",
+	"Categories": [
+			{
+			"Action": "Create",
+			"Category": "Wooloo",
+			"Types": [
+				{
+					"Type": "Wooloo",
+					"Data": "1/4/440/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/10000/Wooloo/Barn",
+					"Sprites": {
+                    "Adult": "assets/ShearedWooloo.png",
+                    "Baby": "assets/BabyWooloo.png",
+			        "ReadyForHarvest": "assets/WoolooSheared.png",
+						},
+				},
+			],
+
+			"Buildings": [
+				"Deluxe Barn"
+			],
+
+			"AnimalShop": {
+				"Name": "Wooloo",
+				"Description": "Peculiar sheep that produces wool.",
+				"Icon": "assets/animal_shop_wooloo.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

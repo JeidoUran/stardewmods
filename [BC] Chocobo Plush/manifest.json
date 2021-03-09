@@ -1,0 +1,23 @@
+{
+	"Name": "[BC] Chocobo Plush",
+	"Author": "Jeido",
+	"Version": "1.0.0",
+	"Description": "Chocobo Plush Bigger Craftable",
+	"UniqueID": "Jeido.BCChocoboPlush",
+	"MinimumApiVersion": "3.8.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.BiggerCraftables", 
+		"MinimumVersion": "1.0.1" 
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.BiggerCraftables",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Jeido.ChocoboItems",
+			"IsRequired": true
+		},
+	]	
+}

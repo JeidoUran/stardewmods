@@ -1,0 +1,241 @@
+{
+	"Format": "1.19.0",
+	
+	"ConfigSchema": {
+		"Backrest Style": {"AllowValues": "Wobbly Circles, Even Circles, Wobbly Ovals, Even Ovals, Plain",
+						   "Default": "Wobbly Circles"},
+	},
+	
+	"Changes": [
+		// Wobbly Circles
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/diff_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ja-JP",
+			"FromFile": "assets/diff_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ko-KR",
+			"FromFile": "assets/diff_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.zh-CN",
+			"FromFile": "assets/diff_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furnitureFront",
+			"FromFile": "assets/diff_circles/mahogany_bench_backrest_no_shadow.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Circles",
+			},
+		},
+		// Even Circles
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/even_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ja-JP",
+			"FromFile": "assets/even_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ko-KR",
+			"FromFile": "assets/even_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.zh-CN",
+			"FromFile": "assets/even_circles/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Circles",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furnitureFront",
+			"FromFile": "assets/even_circles/mahogany_bench_backrest_no_shadow.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Circles",
+			},
+		},
+		// Wobbly Ovals
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/diff_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ja-JP",
+			"FromFile": "assets/diff_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ko-KR",
+			"FromFile": "assets/diff_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.zh-CN",
+			"FromFile": "assets/diff_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furnitureFront",
+			"FromFile": "assets/diff_ovals/mahogany_bench_backrest_no_shadow.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Wobbly Ovals",
+			},
+		},
+		// Even Ovals
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/even_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ja-JP",
+			"FromFile": "assets/even_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ko-KR",
+			"FromFile": "assets/even_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.zh-CN",
+			"FromFile": "assets/even_ovals/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Ovals",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furnitureFront",
+			"FromFile": "assets/even_ovals/mahogany_bench_backrest_no_shadow.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Even Ovals",
+			},
+		},
+		// Plain
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/plain/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Plain",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ja-JP",
+			"FromFile": "assets/plain/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Plain",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.ko-KR",
+			"FromFile": "assets/plain/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Plain",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture.zh-CN",
+			"FromFile": "assets/plain/mahogany_bench_backrest.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Plain",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furnitureFront",
+			"FromFile": "assets/plain/mahogany_bench_backrest_no_shadow.png",
+			"ToArea": { "X": 288, "Y": 101, "Width": 31, "Height": 27 },
+			"When": {
+				"Backrest Style": "Plain",
+			},
+		},
+	]
+}

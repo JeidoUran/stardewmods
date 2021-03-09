@@ -1,0 +1,111 @@
+﻿{
+	"Format": "1.0",
+	"Categories": [
+			{
+			"Action": "Create",
+			"Category": "Rat",
+			"Types": [
+				{
+					"Type": "Albino Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Albino Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/AlbinoRat.png",
+						"Baby": "assets/BabyRat.png"
+						},
+					},
+					{
+
+					"Type": "Black Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Black Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/BlackRat.png",
+						"Baby": "assets/BabyRat.png"
+						},
+					},
+					{
+			
+					"Type": "Brown Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Brown Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/BrownRat.png",
+						"Baby": "assets/BabyRat.png"
+						},
+					},
+					{
+	
+					"Type": "Grey Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Grey Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/GreyRat.png",
+						"Baby": "assets/BabyRat.png"
+						},
+					},
+					{
+			
+				
+					"Type": "Harlequinn Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Harlequinn Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/HarlequinnRat.png",
+						"Baby": "assets/BabyRat.png"
+						},
+					},
+					{
+			
+					"Type": "Red Fancy Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Red Fancy Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/RedFancyRat.png",
+						"Baby": "assets/BabyRat.png"
+						},
+					},
+					{
+			
+					"Type": "Tan Fancy Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Tan Fancy Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/TanFancyRat.png",
+						"Baby": "assets/BabyRat.png"
+						},
+					},
+					{
+			
+					"Type": "Black Berkshire Rat",
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/3/168/424/rabbit/0/0/0/0/0/0/0/0/0/false/Coop/16/16/16/16/3/7/null/644/100/Black Berkshire Rat/Coop",
+					"Sprites": {
+						"Adult": "assets/WhiteSnoot.png",
+						"Baby": "assets/BabyRat.png"
+						},
+				},
+			],
+
+			"Buildings": [
+				"Coop",
+				"Big Coop",
+				"Deluxe Coop"
+			],
+
+			"AnimalShop": {
+				"Name": "Rat",
+				"Description": "These oft misunderstood rodents are friendly, resourceful, and intelligent. They're crafty scavengers who sometimes striking 'swiss gold'",
+				"Icon": "assets/animal_shop_rat.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+   "Name": "Shipping_chest",
+   "Author": "Gweniaczek",
+   "Version": "1.1",
+   "Description": "2 shipping bin retextures matching Medieval buildings",
+   "UniqueID": "Gweniaczek.Shipping_chest",
+   "UpdateKeys": ["Nexus:5512"],
+   "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	"Dependencies": [
+	{
+		"UniqueID": "kaya.floralvalley",
+		"IsRequired": false,
+	},
+	{
+		"UniqueID": "ManaKirel.VMI",
+		"IsRequired": false,
+	},
+	{
+		"UniqueID": "stardewfoliageredone",
+		"IsRequired": false,
+	},
+	],
+}
+

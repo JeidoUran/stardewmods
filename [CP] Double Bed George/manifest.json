@@ -1,0 +1,11 @@
+{
+  "Name": "Double Bed George",
+  "Author": "Pillow",
+  "Version": "1.0.0",
+  "Description": "Makes's Evelyn/George's bed a double bed.",
+  "UniqueID": "Pillow.DBG",
+  "UpdateKeys": [ ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

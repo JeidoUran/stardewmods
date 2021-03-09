@@ -1,0 +1,31 @@
+﻿{
+	"Name": "Mini Storage Shed",
+	"Description": "A small shed, just for keeping stuff in.",
+	"Recipe": {
+		"Ingredients": [
+			{
+				"Object": 709,
+				"Count": 10
+			},
+			{
+				"Object": 388,
+				"Count": 100
+			}
+		],
+		"IsDefault": false,
+		"CanPurchase": true,
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 20000,
+		"PurchaseRequirements": null
+	},
+	"NameLocalization": {
+	        "ru": "Мини-сарай",
+	        "pt": "Mini-armazém",
+		"fr": "Armoire de jardin",
+	},
+	"DescriptionLocalization": {
+	        "ru": "Маленький сарай только для хранения вещей.",
+	        "pt": "Um pequeno galpão, apenas para guardar suas coisas dentro.",
+		"fr": "Une petite armoire de jardin, seulement utilisée pour le stockage.",
+	}
+}

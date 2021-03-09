@@ -1,0 +1,13 @@
+{
+  "Name": "Chocobo Feather",
+  "Description": "A beautiful, but smelly feather.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 125,
+  "IsColored": false,
+  "Recipe": null,
+  "ContextTags": 
+        [
+        "color_yellow"
+        ],
+}

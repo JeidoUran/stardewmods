@@ -1,0 +1,39 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Seagulll",
+			"Types": [
+				{
+					"Type": "Seagulll",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/5/131/708/seagulls/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Seagulll/Coop",
+					"Sprites": {
+						"Adult": "assets/seagull.png",
+						"Baby": "assets/babyseagull.png"
+					}
+				
+				}
+			],
+			"Buildings": [
+				"Coop",
+				"Big Coop",
+				"Deluxe Coop"
+			],
+			"AnimalShop": {
+				"Name": "Seagulls",
+				"Description": "Seagulls will bring their catch from the ocean back home with them.",
+				"Price": 800,
+				"Icon": "assets\\animal_shop_seagull.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "AllaganTomestone",
+	"Author": "Jeido",
+	"Version": "1.0.0",
+	"Description": "Allagan Tomestone",
+	"UniqueID": "jeido.Allag",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+}

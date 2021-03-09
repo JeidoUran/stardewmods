@@ -1,0 +1,11 @@
+{
+  "Name": "Double Bed Jodi",
+  "Author": "Pillow",
+  "Version": "1.0.0",
+  "Description": "Makes's Jodi/Kent's bed a double bed.",
+  "UniqueID": "Pillow.DBJ",
+  "UpdateKeys": [ ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

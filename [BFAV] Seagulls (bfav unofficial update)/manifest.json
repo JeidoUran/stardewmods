@@ -1,0 +1,11 @@
+{
+   "Name": "BFAV Seagulls (BFAV unofficial update)",
+   "Author": "stardewforest",
+   "Version": "3.0",
+   "Description": "Adds seagulls as coop animals using BFAV.",
+   "UniqueID": "stardewforest.BFAVseagulls",
+   "UpdateKeys": [ "3958" ],
+   "ContentPackFor": {
+     "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

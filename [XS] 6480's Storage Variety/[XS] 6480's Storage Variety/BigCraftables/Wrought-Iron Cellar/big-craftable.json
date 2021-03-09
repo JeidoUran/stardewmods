@@ -1,0 +1,27 @@
+﻿{
+	"Name": "Wrought-Iron Cellar",
+	"Description": "This staircase leads down to a roomy cellar with plenty of space for items.",
+	"Recipe": {
+		"Ingredients": [
+			{
+				"Object": 335,
+				"Count": 10
+			}
+		],
+		"IsDefault": false,
+		"CanPurchase": true,
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 15000,
+		"PurchaseRequirements": null
+	},
+	"NameLocalization": {
+	        "ru": "Металлический погреб",
+	        "pt": "Porão de ferro fundido",
+		"fr": "Porte de cave en fer forgée",
+	},
+	"DescriptionLocalization": {
+	        "ru": "Лестница уходит вниз в вместительный погреб с достаточным количеством места для хранения вещей.",
+	        "pt": "Esta escadaria leva a um porão espaçoso com muito espaço para os seus itens.",
+		"fr": "Cet escalier mène vers une cave spacieuse pour stocker un grand nombre d'objets.",
+	}
+}

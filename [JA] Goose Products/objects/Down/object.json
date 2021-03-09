@@ -1,0 +1,46 @@
+{
+    "Name": "Down",
+    "Description": "It's so fluffy, but not very valuable.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "Price": 30,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Elliott"],
+		"Like": ["Harvey", "Emily", "Linus"],
+        "Dislike": ["Penny"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "Daune",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "Sie ist so weich, aber nicht sehr wertvoll.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_white",
+    ]
+}

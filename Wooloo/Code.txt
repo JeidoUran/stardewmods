@@ -1,0 +1,68 @@
+How to install
+
+1. download and install Paritee’s Better Farm Animal Variety (BFAV) mod from nexus mods
+
+2. download and extract the "[BFAV] Wooloo" folder into your StardewValley/Mods folder. 
+
+3. within the "[BFAV] Wooloo" folder, locate and copy the "animal_shop_seagull.png" file.
+	
+4. go into your "Paritee's Better Farm Animal Variety" folder located in your StardewValley/Mods folder. 
+
+5. copy or move the "animal_shop_woolo.png" file into the assets folder assets folder. (StardewValley/Mods/Paritee's Better Farm Animal Variety/Assets)
+
+6. go into your "Paritee's Better Farm Animal Variety" folder and open the config.json file with any text editing software like notepad++.
+
+7. scroll to the end of the code, there should be four brackets looking like
+
+      }
+    }
+  }
+}
+
+8. add a comma after the second bracket like this
+
+      }
+    },
+  }
+}
+
+8. copy and paste the code below in a new line after the comma you just added so that the end of your code looks like this
+
+    "Wooloo": {
+      "Types": [
+        "Wooloo"
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Wooloo",
+        "Description": "Adult Wooloo can be shorn for wool daily because of how fast their wool grows.",
+        "Price": "15000",
+        "Icon": "assets\\animal_shop_wooloo.png"
+      }
+    }
+  }
+}
+
+!!COPY THIS CODE!!
+
+   "Wooloo": {
+      "Types": [
+        "Wooloo"
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Wooloo",
+        "Description": "Adult Wooloo can be shorn for wool daily because of how fast their wool grows.",
+        "Price": "15000",
+        "Icon": "assets\\animal_shop_wooloo.png"
+      }
+    }
+

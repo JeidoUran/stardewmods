@@ -1,0 +1,10 @@
+{
+   "Name": "Moya's Geckos",
+   "Author": "Moya",
+   "Version": "1.0.0",
+   "Description": "Adds Geckos.",
+   "UniqueID": "Moya.Geckos",
+   "ContentPackFor": {
+     "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

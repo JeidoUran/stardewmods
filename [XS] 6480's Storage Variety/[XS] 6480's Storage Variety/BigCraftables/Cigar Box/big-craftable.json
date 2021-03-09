@@ -1,0 +1,31 @@
+﻿{
+	"Name": "Cigar Box",
+	"Description": "A small wooden box to leave your valuables in.",
+	"Recipe": {
+		"Ingredients": [
+			{
+				"Object": 709,
+				"Count": 10
+			},
+			{
+				"Object": 428,
+				"Count": 1
+			}
+		],
+		"IsDefault": false,
+		"CanPurchase": true,
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 5000,
+		"PurchaseRequirements": null
+	},
+	"NameLocalization": {
+	        "ru": "Коробка для сигар",
+	        "pt": "Caixa de cigarros",
+		"fr": "Boite à cigares",
+	},
+	"DescriptionLocalization": {
+	        "ru": "Небольшая деревянная коробка для хранения ценных вещей.",
+	        "pt": "Uma pequena caixa de madeira para deixar os seus objetos de valor dentro.",
+		"fr": "Une petite boite en bois pour ranger vos objets de valeurs.",
+	}
+}

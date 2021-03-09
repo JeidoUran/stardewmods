@@ -1,0 +1,10 @@
+{
+  "BiggerCraftables": [
+    {
+      "Name": "Chocobo Plush",
+      "Image": "assets/chocobo-plush.png" ,
+      "Width": 2,
+      "Length": 1,
+	}
+  ]
+}
