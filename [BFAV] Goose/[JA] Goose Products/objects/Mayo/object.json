@@ -1,22 +1,25 @@
 {
-    "Name": "Goose",
-    "Description": "The meat of a whole goose. It's rich in fat.",
-    "Category": "Meat",
-    "Edibility": 100,
-    "Price": 900,
+    "Name": "Goose Mayonnaise",
+    "Description": "Very bright mayonnaise",
+    "Category": "ArtisanGoods",
+	"Edibility": -300,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+    "Price": 600,
     "IsColored": false,
     "Recipe": null,
     "GiftTastes":
     {
-		"Like": ["Gus", "Kent", "Jodi", "Linus", "Pam"],
-        "Dislike": ["Abigail","Haley", "Wizard", "Sam", "Haley"],
-		"Hate": ["Shane", "Leah", "Jas", "Vincent", "Marnie", "Penny"]
+        "Love": ["Gus", "Jodi", "Harvey"],
+		"Like": ["Demetrius", "Shane", "Kent", "Leah"],
+        "Dislike": ["Abigail", "Dwarf", "Haley", "Pam", "Vincent", "Wizard", "Jas", "Alex",  "Kent", "Linus", "Marnie", "Pierre", "Sam"],
+		"Hate": ["Sebastian"]
     },
     "NameLocalization":
     {
         // "es": "",
         // "ko": "",
-        // "de": "Gans",
+        // "de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
@@ -30,7 +33,7 @@
     {
         // "es": "",
         // "ko": "",
-        // "de": "Das Fleisch einer ganzen Gans. Es ist sehr fetthaltig.",
+        // "de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
@@ -39,9 +42,5 @@
         // "ru": "",
         // "tr": "",
         // "zh": "",
-    },
-    "ContextTags": [
-        "color_pink",
-    ],
-	"EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD"
+    }
 }

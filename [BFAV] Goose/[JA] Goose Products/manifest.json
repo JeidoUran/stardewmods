@@ -1,0 +1,11 @@
+{
+  "Name": "[JA] Goose Products",
+  "Author": "lamplight",
+  "Version": "1.1",
+  "Description": "Adds down and eggs for geese",
+  "UniqueID": "lamplight.GooseProducts",
+  "UpdateKeys": ["Nexus: 7040"],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}

@@ -7,7 +7,7 @@
 		"Types": [
 			{
 			"Type": "White Goose",
-			"Data": "3/5/Down/Goose Egg/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/Goose/5000/White Goose/Coop",
+			"Data": "3/5/Down/Goose Egg/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/641/5000/White Goose/Coop",
 			"Sprites": {
 				"Adult": "assets/Goose.png",
 				"Baby": "assets/BabyGoose.png"
@@ -15,7 +15,7 @@
 			},
 			{
 			"Type": "Wild Goose",
-			"Data": "3/5/Down/Goose Egg/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/Goose/5000/Wild Goose/Coop",
+			"Data": "3/5/Down/Goose Egg/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/641/5000/Wild Goose/Coop",
 			"Sprites": {
 				"Adult": "assets/WildGoose.png",
 				"Baby": "assets/BabyWildGoose.png"
@@ -24,7 +24,7 @@
 			{
 			"Type": "Special White Goose",
 			"DeluxeLuckChance": 0.001,
-			"Data": "3/5/Down/Golden Goose Egg/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/Goose/5000/White Goose/Coop",
+			"Data": "3/5/Down/Golden Goose Egg/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/641/5000/White Goose/Coop",
 			"Sprites": {
 				"Adult": "assets/Goose.png",
 				"Baby": "assets/BabySpecialGoose.png"
@@ -40,8 +40,6 @@
 		"Icon": "assets/animal_shop_goose.png",
 		"Exclude": [
 			"Void Chicken",
-			"Wild Goose",
-			"Special White Goose"
 		]
 	},
 			"ForceRemoveFromShop": false,

@@ -1,0 +1,13 @@
+{
+   "Name": "[BFAV] Goose",
+   "Author": "lamplight",
+   "Version": "1.1",
+   "Description": "Adds a couple geese to befriend",
+   "UniqueID": "lamplight.BFAVGoose",
+   "UpdateKeys": [ "Nexus: 7040" ],
+   "MinimumApiVersion": "3.0",
+   "ContentPackFor": {
+	"UniqueID": "Paritee.BetterFarmAnimalVariety",
+	"MinimumVersion": "3.0.0-unofficial"
+  	}
+}
