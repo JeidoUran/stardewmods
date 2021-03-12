@@ -1,0 +1,11 @@
+{
+  "Name": "Gecko Skin",
+  "Author": "Jeido",
+  "Version": "1.0.0",
+  "Description": "Adds Gecko Skin for BFAV Geckos",
+  "UniqueID": "Jeido.GeckoSkin",
+  "MinimumApiVersion": "2.10",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

@@ -1,0 +1,9 @@
+{
+  "Name": "Gecko Skin",
+  "Description": "A piece of skin left by a gecko after shedding.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": null,
+}

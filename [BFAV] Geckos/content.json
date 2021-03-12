@@ -8,7 +8,7 @@
 				{
 					"Type": "Gecko",
 					"DeluxeProduceLuck": 0.01,
-					"Data": "1/0/74/797/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/10000/Gecko/Coop",
+					"Data": "1/0/Gecko Skin/684/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/10000/Gecko/Coop",
 					"Sprites": {
 						"Adult": "assets/Gecko.png",
 						"Baby": "assets/Gecko.png"
@@ -20,7 +20,7 @@
 			],
 			"AnimalShop": {
 				"Name": "Gecko",
-				"Description": "Geckos bring home gifts that everyone will love.",
+				"Description": "Geckos can shed their skin and will give you some of the meat of the bugs they catch.",
 				"Price": 10000,
 				"Icon": "assets\\animal_shop_gecko.png",
 				"Exclude": [
