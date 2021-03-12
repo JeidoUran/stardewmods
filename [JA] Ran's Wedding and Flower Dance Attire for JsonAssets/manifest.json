@@ -1,0 +1,10 @@
+{
+   "Name": "Ran's Wedding & Flower Dance Attire for JsonAssets",
+   "Author": "ran",
+   "Version": "1.0.0",
+   "Description": "Adds new shirts and pants for your wedding day and flower dance festival!",
+   "UniqueID": "ran.weddingflowerdanceattireja",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}
