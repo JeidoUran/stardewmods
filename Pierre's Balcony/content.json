@@ -1,0 +1,813 @@
+{
+    "Format": "1.19.0",
+    "Changes": [
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SeedShop",
+        "FromFile": "assets/staircase.tmx",
+        "ToArea":
+        {
+            "X": 8,
+            "Y": 30,
+            "Width": 3,
+            "Height": 4
+        }
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Town",
+        "FromFile": "assets/balcony.tmx",
+        "FromArea":
+        {
+            "X": 40,
+            "Y": 50,
+            "Width": 5,
+            "Height": 4
+        },
+        "ToArea":
+        {
+            "X": 40,
+            "Y": 50,
+            "Width": 5,
+            "Height": 4
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "strings/StringsFromMaps",
+        "Entries":
+        {
+            "CarolinePlant": "It looks like Caroline is growing a plant."
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.es-ES",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.fr-FR",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.hu-HU",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.it-IT",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.ja-JP",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.ko-KR",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.pt-BR",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.tr-TR",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/spring_town.zh-CN",
+        "FromFile": "assets/spring_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.es-ES",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.fr-FR",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.hu-HU",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.it-IT",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.ja-JP",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.ko-KR",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.pt-BR",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.tr-TR",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/fall_town.zh-CN",
+        "FromFile": "assets/fall_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.es-ES",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.fr-FR",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.hu-HU",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.it-IT",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.ja-JP",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.ko-KR",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.pt-BR",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.tr-TR",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/winter_town.zh-CN",
+        "FromFile": "assets/winter_town.png",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 80,
+            "Height": 64
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.es-ES",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.fr-FR",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.hu-HU",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.it-IT",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.ja-JP",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.ko-KR",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.pt-BR",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.tr-TR",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Maps/summer_town.zh-CN",
+        "FromFile": "assets/summer_town.png",
+        "PatchMode": "Overlay",
+        "FromArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        },
+        "ToArea":
+        {
+            "X": 112,
+            "Y": 208,
+            "Width": 96,
+            "Height": 80
+        }
+    }]
+}

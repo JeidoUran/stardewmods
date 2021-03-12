@@ -1,0 +1,20 @@
+{
+    "Name": "Pierre's Balcony",
+    "Author": "heyseth",
+    "Version": "1.1.0",
+    "Description": "Makes Pierre's balcony accessible by a staircase in the shop",
+    "UniqueID": "heyseth.pierrebalcony",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": ["Nexus:7545"],
+    "ContentPackFor":
+    {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+    {
+        "UniqueID": "Platonymous.TMXLoader"
+    },
+    {
+        "UniqueID": "Platonymous.Toolkit"
+    }]
+}
