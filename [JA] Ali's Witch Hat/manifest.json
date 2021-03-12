@@ -1,0 +1,13 @@
+{
+   "Name": "Ali's Witch Hat: A Conversion for JsonAssets",
+   "Author": "strawberrymilk95 and Geminia",
+   "Description": "A port of Witch Hat for JsonAssets",
+   "Version": "1.0.0",
+   "UniqueID": "strawberrymilk95.JA.WitchHat",
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+   "UpdateKeys": [ "" ]
+}
+
+
