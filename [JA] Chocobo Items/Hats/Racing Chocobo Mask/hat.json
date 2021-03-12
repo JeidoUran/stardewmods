@@ -1,0 +1,7 @@
+{
+    "Name": "Racing Chocobo Mask",
+    "Description": "A rather big mask used by the best Chocobo racers.",
+    "PurchasePrice": 1000,
+    "ShowHair": true,
+    "IgnoreHairstyleOffset": true
+}
