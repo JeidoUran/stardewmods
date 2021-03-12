@@ -1,0 +1,12 @@
+{
+  "Name": "BFAV Swans",
+  "Author": "Ciriun and Kitsutsune",
+  "Version": "0.1",
+  "Description": "Adds Swans that don't replace ducks",
+  "UniqueID": "CiriunKitsu.BFAVSwans",
+  "MinimumApiVersion": "2.5",
+   "UpdateKeys": [],
+	"ContentPackFor": {
+			"UniqueID": "Paritee.BetterFarmAnimalVariety"
+		}
+}
