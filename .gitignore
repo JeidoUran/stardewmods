@@ -1,4 +1,3 @@
-config.json
 MultiplayerModChecker/LatestMultiplayerModReport-Host.json
 MultiplayerModChecker/LatestMultiplayerModReports-Farmhand.txt
 MultiplayerModChecker/LatestMultiplayerModReports-Host.txt
@@ -8,5 +7,8 @@ SaveBackup
 ErrorHandler
 ConsoleCommands
 Paritee's Better Farm Animal Variety/cache
-!MultiplayerHorseReskin/config.json
-!Elle's Kitchen Replacement/config.json
+Improved Horses/config.json
+AudioDevices/config.json
+SpouseOutdoorArea/config.json
+BetterRanching/config.json
+Seasonal Display Background/config.json
