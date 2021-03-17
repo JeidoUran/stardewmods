@@ -1,0 +1,71 @@
+{
+	"Format": "1.9",
+
+	"ConfigSchema": {
+		"mailoption":{"AllowValues": "1, 2, 3",
+					"Default": "1"},
+		"mailExtra":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+      },
+
+	"Changes": [
+//Mailbox
+		 {
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Mailbox}}",
+        "FromFile": "assets/{{mailoption}}_winter.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Mailbox}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Mailbox}}", "Width": 16, "Height": 32 },
+        "When": { "season": "winter"},
+        },		
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Mailbox}}",
+        "FromFile": "assets/{{mailExtra}}/{{mailoption}}_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Mailbox}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Mailbox}}", "Width": 16, "Height": 32 },
+        "When": { "season": "spring, summer, fall",
+				"mailoption": "3"},
+        },
+//clean
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Mailbox}}",
+        "FromFile": "assets/clean/{{mailoption}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Mailbox}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Mailbox}}", "Width": 16, "Height": 32 },
+        "When": { "season": "spring, summer, fall",
+				"Weather": "Sun, Wind",
+				"mailoption": "1, 2",
+				"mailExtra": "clean"},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Mailbox}}",
+        "FromFile": "assets/clean/{{mailoption}}_peta.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Mailbox}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Mailbox}}", "Width": 16, "Height": 32 },
+        "When": { "season": "spring, summer, fall",
+				"Weather": "Rain, Storm, Snow",
+				"mailoption": "1, 2",
+				"mailExtra": "clean"},
+        },
+//flowers
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Mailbox}}",
+        "FromFile": "assets/flowers/{{mailoption}}_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Mailbox}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Mailbox}}", "Width": 16, "Height": 32 },
+        "When": { "season": "spring, summer, fall",
+				"Weather": "Sun, Wind",
+				"mailoption": "1, 2",
+				"mailExtra": "flowers"},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Mailbox}}",
+        "FromFile": "assets/flowers/{{mailoption}}_{{season}}_peta.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Mailbox}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Mailbox}}", "Width": 16, "Height": 32 },
+        "When": { "season": "spring, summer, fall",
+				"Weather": "Rain, Storm, Snow",
+				"mailoption": "1, 2",
+				"mailExtra": "flowers"},
+        },
+     ]
+}

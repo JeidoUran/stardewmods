@@ -1,0 +1,16 @@
+{
+   "Name": "pigeon_mail",
+   "Author": "Gweniaczek",
+   "Version": "1.2",
+   "Description": "Pigeon mailbox matching Medieval buildings",
+   "UniqueID": "Gweniaczek.moveable.pigeon_mail",
+   "UpdateKeys": ["Nexus:4785"],
+    "Dependencies": [
+		{
+			"UniqueID": "spacechase0.JsonAssets"
+		},
+	],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      }
+}
