@@ -3,7 +3,7 @@
   "Description": "A very valueable cloth made from fine silk.",
   "Category": "ArtisanGoods",
   "Edibility": -300,
-  "Price": 3000,
+  "Price": 450,
   "IsColored": false,
   "Recipe": null,
   "GiftTastes": {
