@@ -1,7 +1,7 @@
 {
   "Name": "Community Center",
   "Author": "LemurKat",
-  "Version": "1.1.1",
+  "Version": "1.1.2",
   "Description": "Changes the community center",
   "UniqueID": "LemurKat.CommunityCenter.CP",
   "MinimumApiVersion": "3.0",
@@ -15,7 +15,8 @@
     {   "UniqueID":"balverines.cecilia", "IsRequired":false    },
     {   "UniqueID":"balverines.Denver", "IsRequired":false    },
     {   "UniqueID":"LemurKat.JulietHouse.NPC", "IsRequired":false    },
-   // {   "UniqueID":"MindMeltMax.BCC", "IsRequired":false    }
+    {   "UniqueID":"lemurkat.Jasmineno", "IsRequired":false    },
+   {   "UniqueID":"Lemurkat.Tristan.CP", "IsRequired":false    }
         ],
   "ContentPackFor": {
   "UniqueID": "Pathoschild.ContentPatcher"

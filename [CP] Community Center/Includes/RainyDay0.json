@@ -32,9 +32,16 @@
 	"Action": "EditData",  
 	"Target": "Characters/schedules/Linus",
 	"Entries": {	
-		"rain": "700 Tent 2 2 0/930 Mountain 25 5 1/1010 Tent 3 2 2/1100 CommunityCenter 5 5 0 square_5_1_0/1300 CommunityCenter 5 7 2/1500 Mountain 17 7 2/1900 Tent 2 2 2"
+		"rain": "700 Tent 2 2 0/930 Mountain 25 5 1/1010 Tent 3 2 2/1040 CommunityCenter 5 5 0 square_5_1_0/1300 CommunityCenter 5 7 2/1500 Mountain 17 7 2/1900 Tent 2 2 2"
 			}
         },
+        {   "LogName": "Schedule",  
+            "Action": "EditData",  
+            "Target": "Characters/schedules/LeoMainland",
+            "Entries": {	
+                "rain": "700 LeoTreeHouse 2 2 0/1000 Tent 1 3 1 \"Strings\\schedules\\Leo:tent\"/1040 CommunityCenter 40 20 0 square 5_1_0 \"Strings\\schedules\\Leo:CC_{{random:FT1,FT2,FT3}}\"/1300 CommunityCenter 5 10 0/1500 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep" 
+                    }
+                },
 //Maru and Penny hang out together on raining saturdays and sundays
 {   "LogName": "Schedule",  
 	"Action": "EditData",  
@@ -49,8 +56,8 @@
     "Target": "Characters/schedules/Penny",
     "When": {	"DayOfWeek": "Saturday, Sunday"	},
     "Entries": {
-            "rain": "900 Trailer 5 5 0/1000 CommunityCenter 14 26 1/1600 Trailer 12 6 0 penny_dishes/1800 Trailer 4 4 2 penny_read/2100 Trailer 4 9 1 penny_sleep",
-            "rain2": "900 Trailer 5 5 0/1000 CommunityCenter 14 26 1/1600 Trailer 12 6 0 penny_dishes/1800 Trailer 4 4 2 penny_read/2100 Trailer 4 9 1 penny_sleep"
+            "rain": "900 Trailer 5 5 0/1000 CommunityCenter 14 27 0/1600 Trailer 12 6 0 penny_dishes/1800 Trailer 4 4 2 penny_read/2100 Trailer 4 9 1 penny_sleep",
+            "rain2": "900 Trailer 5 5 0/1000 CommunityCenter 14 27 0/1600 Trailer 12 6 0 penny_dishes/1800 Trailer 4 4 2 penny_read/2100 Trailer 4 9 1 penny_sleep"
           
             }  
         },
@@ -70,6 +77,15 @@
      //"Good afternoon, my friend. Ah yes, as much as I enjoy nature's shower, a hot meal and a sturdy roof do wonders in restoring the spirit.$1"
     }
 },
+{	"LogName": "Leo Strings",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Leo",
+    "Entries": {
+        "CC_FT1": "{{i18n:RainyDay.Leo.1}}",
+        "CC_FT2": "{{i18n:RainyDay.Leo.2}}",
+        "CC_FT3": "{{i18n:RainyDay.Leo.3}}"
+            }
+        },
 
 
 

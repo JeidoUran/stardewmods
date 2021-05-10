@@ -45,7 +45,7 @@
         "Entries": {
             "9":    "GOTO rain",
             "23":   "GOTO rain",
-            "rain": "900 CommunityCenter 19 20 3 jas_read/1620 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}\"/2000 AnimalShop 1 7 3 jas_sleep"
+            "rain": "900 CommunityCenter 18 20 3 jas_read/1620 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}\"/2000 AnimalShop 1 7 3 jas_sleep"
             }
         },
 

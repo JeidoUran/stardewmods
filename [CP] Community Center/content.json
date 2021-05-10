@@ -51,7 +51,72 @@
 				"HasMod |contains=malic.cp.jadeNPC": true,
 				"HasMod |contains=LemurKat.JulietHouse.NPC": true
 			}
-		}
+		},
+		{
+			"Name": "PennyEnd",
+			"Value": "Trailer 4 9 1",
+		},
+		{ //Help Penny
+			"Name": "PennyEnd",
+			"Value": "PennysHouse 10 5 1",
+			"When": {
+				"HasMod": "Fellowclown.PennyUpgrade",
+				"HasDialogueAnswer |contains=77710": "true"
+			}
+		},
+		{ //Life Cycle
+			"Name": "PennyEnd",
+			"Value": "House1AC 20 5 1",
+			"When": {
+				"HasMod: |contains=nraittanna.LifeCycleAthanaeriMap": "true",
+				"HasSeenEvent": "59020025"
+			}
+		},
+		{ //Life Cycle ES adjustment
+			"Name": "PennyEnd",
+			"Value": "Custom_PSHouse 20 5 1",
+			"When": {
+				"HasMod: |contains=nraittanna.LifeCyclePennySam.EastScarpeVersion": "true",
+				"HasSeenEvent": "59020025"
+			}
+		},
+		{ //Life Cycle but with moved location to East Scarpe
+			"Name": "PennyEnd",
+			"Value": "ESHouse2 20 5 1",
+			"When": {
+				"HasMod: |contains=nraittanna.LifeCycleAthanaeriMap": "false",
+				"HasMod": "EastScarpe.LifeCyclePennySam",
+				"HasSeenEvent": "59020025"
+			}
+		},
+		{
+			"Name": "PennyStart",
+			"Value": "Trailer 6 5 0",
+		},
+		{ //Help Penny
+			"Name": "PennyStart",
+			"Value": "PennysHouse 2 5 0",
+			"When": {
+				"HasMod": "Fellowclown.PennyUpgrade",
+				"HasDialogueAnswer |contains=77710": "true"
+			}
+		},
+		{ //Life Cycle
+			"Name": "PennyStart",
+			"Value": "House1AC 13 14 0",
+			"When": {
+				"HasMod: |contains=nraittanna.LifeCycleAthanaeriMap": "true",
+				"HasSeenEvent": "59020025"
+			}
+		},
+		{ //Life Cycle
+			"Name": "PennyStart",
+			"Value": "Custom_PSHouse 13 14 1",
+			"When": {
+				"HasMod: |contains=nraittanna.LifeCyclePennySam.EastScarpeVersion": "true",
+				"HasSeenEvent": "59020025"
+			}
+		},
 	],
 	"Changes": [
 		//Stops NPCs walking through furniture in Community Center
@@ -72,6 +137,28 @@
 			"When": {
 				"HasSeenEvent": "191393",
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Refurbished",
+			"FromFile": "assets/CommunityCenter_Classroom_SVE.tmx",
+			"FromArea": {
+				"X": 8,
+				"Y": 16,
+				"Width": 12,
+				"Height": 8
+			},
+			"ToArea": {
+				"X": 8,
+				"Y": 16,
+				"Width": 12,
+				"Height": 8
+			},
+			"When": {
+				"HasSeenEvent": "191393",
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"OverRideSVE": false
 			}
 		},
 		//remove this before Uploading the mod. For trial purposes only		
@@ -167,7 +254,7 @@ F: People not yet involved in anything: Demetrius, Pierre, George, Alex, Kent, L
 			"When": {
 				"RainyDaySchedule": true,
 				"HasSeenEvent": "191393"
-//
+				//
 			}
 		},
 		//{{RainDay}}
@@ -182,6 +269,14 @@ F: People not yet involved in anything: Demetrius, Pierre, George, Alex, Kent, L
 				"Season": "spring"
 			}
 		},
+		{
+			"Action": "Include",
+			"FromFile": "Includes/SVECommunityDay.json",
+			"When": {
+				"HasSeenEvent": "191393",
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
 		//(7777002 is the event for creating Town School)
 		/*
 Event codes:
@@ -191,6 +286,7 @@ Event codes:
 69660004: Jasper asks to join Gus's cooking class
 69660005: Emily invites farmer to come and paint eggs.
 69660006: Haley joins the poetry class
+69660015: Leo and Ellie
 */
 		//Adds randomized Bulletin board
 		{

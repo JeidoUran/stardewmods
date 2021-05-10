@@ -317,7 +317,7 @@
     "RainyDayF.Shane.3": "Maybe I should let Jas finish mine for me. No bird's gonna want to nest in here.$2",
     "RainyDayF.Jas.1": "I hope Jeremy and his ladyfriend like the home I'm making for them!$1",
     "RainyDayF.Jas.2": "I offered to help Uncle Shane with his house... but he just scowled.$3",
-    "RainyDayF.Jas.3": "These houses are going to be so cosy! I hope we get lots of baby birds this year.$1",
+    "RainyDayF.Jas.3": "These houses are going to be so cozy! I hope we get lots of baby birds this year.$1",
     "RainyDayF.Harvey.1": "I've had a lot of practise painting small things. Do you like it, @?$2",
     "RainyDayF.Harvey.2": "%Harvey is focussed intently on his bird house. He's doing a good job.",
     "RainyDayF.Harvey.3": "It's nice to get out and meet people outside of work. Don't you think?$1",
@@ -326,7 +326,7 @@
     "RainyDayF.MisterGinger0.3": "Mirp!$1",
     "RainyDayF.MisterGinger.1": "She's building me a birdhouse. Imagine that, my own private pantry.$1",
     "RainyDayF.MisterGinger.2": "What? I can't help her. Oh, you think you're so smug with your fingers and all.",
-    "RainyDayF.MisterGinger.3": "Cosy, isn't it? Maybe I should come to school with Jas more often. Who knows? I might even learn something.",
+    "RainyDayF.MisterGinger.3": "Cozy, isn't it? Maybe I should come to school with Jas more often. Who knows? I might even learn something.",
     "RainyDayF.MisterGinger.4": "Glad Shane's finally stepped into the godfather role, now he's got a little competition.$1",
     "RainyDayF.MisterGinger.5": "Jas's birdhouse looks better than Shane's. Me? Oh, I'd be useless. Not even going to try.$1",
     "RainyDayF.MisterGinger.6": "I'm going to knit Shane a scarf. What color do you think would suit him? Hah, I know he'd never wear it.",
@@ -335,5 +335,9 @@
     "RainyDayF.MisterGinger.9": "What do you mean a bird can't fit in there? They're small. Okay... maybe not _that_ small!$3",
     "RainyDayF.Jade.1": "If I make this good enough... maybe a fairy will move in.$4",
     "RainyDayF.Jade.2": "Oh... it's crooked. Again. How has Jas got hers so neat?$2",
-    "RainyDayF.Jade.3": ":Why don't you join us, @? Birds are good for pest control. Well, except when they are the pest!"
+    "RainyDayF.Jade.3": ":Why don't you join us, @? Birds are good for pest control. Well, except when they are the pest!",
+    //Leo strings
+    "RainyDay.Leo.1":"Watching them swim makes me feel sleepy. And maybe a little hungry as well!$1",
+    "RainyDay.Leo.2":"This place is pretty nice. It feels safe. But it's not as cozy as my treehouse.",
+    "RainyDay.Leo.3":"Linus is cooking lunch. Would you like to join us? The fish is really fresh; we caught it this morning."
 }

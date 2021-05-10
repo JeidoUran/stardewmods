@@ -335,5 +335,10 @@
     "RainyDayF.MisterGinger.9": "What do you mean a bird can't fit in there? They're small. Okay... maybe not _that_ small!$3",
     "RainyDayF.Jade.1": "If I make this good enough... maybe a fairy will move in.$4",
     "RainyDayF.Jade.2": "Oh... it's crooked. Again. How has Jas got hers so neat?$2",
-    "RainyDayF.Jade.3": ":Why don't you join us, @? Birds are good for pest control. Well, except when they are the pest!"
+    "RainyDayF.Jade.3": ":Why don't you join us, @? Birds are good for pest control. Well, except when they are the pest!",
+    //Community Center Day (SVE compatibility)
+    "CommunityDay.Vincent.1": "This place was waaaay cooler when all the bugs were still in here.$3", //Taken from SVE because otherwise you'd never see it with this remodeled map
+    /*"CommunityDay.Eloise.1": "",
+    "CommunityDay.Eloise.2": "",
+    "CommunityDay.Eloise.3": ""*/
 }
