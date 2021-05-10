@@ -9,9 +9,9 @@
   "Feeding": false,
   "PetFeeding": true,
   "AllowMultipleFeedingsADay": false,
-  "HorseMenuKey": "H, LeftStick + DPadUp",
-  "PetMenuKey": "P, LeftStick + DPadDown",
-  "AlternateSaddleBagAndFeedKey": "LeftStick",
+  "HorseMenuKey": "H",
+  "PetMenuKey": "P",
+  "AlternateSaddleBagAndFeedKey": "None",
   "DisableMainSaddleBagAndFeedKey": false,
   "DisableStableSpriteChanges": false
 }
