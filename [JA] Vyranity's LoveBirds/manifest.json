@@ -1,0 +1,13 @@
+{
+    "Name": "Vyranity's lovebird objects",
+    "Author": "Vyranity",
+    "Description": "The objects that come with the lovebirds",
+    "Version": "1.0",
+    "MinimumApiVersion": "3.7.0",
+    "UniqueID": "Vyranity.LovebirdObjects",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": [],
+}

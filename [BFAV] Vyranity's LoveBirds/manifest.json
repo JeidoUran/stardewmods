@@ -1,0 +1,11 @@
+{
+  "Name": "Vyranity's Lovebirds",
+  "Author": "Vyranity",
+  "Version": "1.0",
+  "Description": "Adds lovebirds.",
+  "UniqueID": "Vyranity.Lovebirds",
+  "UpdateKeys": [  ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

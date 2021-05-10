@@ -1,0 +1,11 @@
+[
+	{
+	"ProducerName": "Mayonnaise Machine",
+	"InputIdentifier": "Lovebird Egg",
+	"InputStack": 1,
+	"MinutesUntilReady": 1180,
+	"OutputIdentifier": "Lovebird Mayonnaise",
+	"Sounds": ["Ship"],
+	},
+
+]

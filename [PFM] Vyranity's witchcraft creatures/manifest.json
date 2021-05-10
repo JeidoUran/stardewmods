@@ -1,0 +1,12 @@
+{
+    "Name": "Vyranity's Lovebird PFM",
+    "Author": "Vyranity",
+    "Description": "This is for the recipe for the lovebird mayonnaise.",
+    "Version": "1.0",
+    "MinimumApiVersion": "3.7.0",
+    "UniqueID": "Vyranity.LovebirdPFM",
+    "ContentPackFor":
+    {
+        "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },
+}

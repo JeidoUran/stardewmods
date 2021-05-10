@@ -1,0 +1,58 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Lovebird",
+			"Types": [
+				{
+					"Type": "Green Lovebird",
+					"DeluxeProduceLuck": 0.001,
+					"Data": "1/4/Lovebird Egg/Lovebird Bracelet/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/4/null/641/3000/Lovebird/Coop",
+					"Sprites": {
+						"Adult": "assets/GreenLovebird.png",
+						"Baby": "assets/GreenLovebirdBaby.png"
+					}
+				},
+				{
+					"Type": "Blue Lovebird",
+					"DeluxeProduceLuck": 0.001,
+					"Data": "1/4/Lovebird Egg/Lovebird Bracelet/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/4/null/641/3000/Lovebird/Coop",
+					"Sprites": {
+						"Adult": "assets/BlueLovebird.png",
+						"Baby": "assets/BlueLovebirdBaby.png"
+					}
+				},
+				{
+					"Type": "Yellow Lovebird",
+					"DeluxeProduceLuck": 0.001,
+					"Data": "1/4/Lovebird Egg/Lovebird Bracelet/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/4/null/641/3000/Lovebird/Coop",
+					"Sprites": {
+						"Adult": "assets/YellowLovebird.png",
+						"Baby": "assets/YellowLovebirdBaby.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Coop",
+				"Big Coop",
+				"Deluxe Coop"
+			],
+			"AnimalShop": {
+				"Name": "Lovebird",
+				"Description": "Beautiful wholesome colourful birds.",
+				"Price": 2000,
+				"Icon": "assets\\animal_shop_lovebird.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		},
+
+	],
+
+}		
