@@ -1,0 +1,21 @@
+{
+  "Name": "Donkey Milk",
+  "Description": "A bottle of donkey's milk.",
+  "Category": "Milk",
+  "Edibility": 20,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 370,
+  "IsColored": false,
+  "GiftTastes": {
+	"Like": ["Marnie", "Leah"],
+	"Dislike": ["Kent"],
+	},
+	"ContextTags": 
+        [
+        "color_white",
+		"drink_item",
+		"milk_item", 
+		"donkey_milk_item"
+        ],
+}

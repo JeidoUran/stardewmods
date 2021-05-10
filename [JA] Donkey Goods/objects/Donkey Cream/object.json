@@ -1,0 +1,18 @@
+{
+  "Name": "Donkey Cream",
+  "Description": "Luxorious face cream made of donkey milk.",
+  "Category": "ArtisanGoods",
+  "Edibility": 55,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 700,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Hayley", "Sandy"],
+	"Dislike": ["Alex"],
+	},
+	"ContextTags": 
+        [
+        "color_white"
+        ],
+}

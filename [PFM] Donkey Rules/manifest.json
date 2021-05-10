@@ -1,0 +1,13 @@
+﻿{
+	"Name": "Donkey Rules",
+	"Author": "bidb",
+	"Version": "1.3",
+	"Description": "Adds producing rules for donkey milk.",
+	"UniqueID": "bb.donkeyrules",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "[BFAV] Donkey",
+  "Author": "birdb",
+  "Version": "1.3",
+  "Description": "Adds donkeys as Farm Animals.",
+  "UniqueID": "BFAV.Donkey",
+  "MinimumApiVersion": "2.5", 
+  "UpdateKeys": [ "Nexus:8410" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety",
+  }
+}

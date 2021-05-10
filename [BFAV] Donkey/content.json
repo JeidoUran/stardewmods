@@ -1,0 +1,36 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Donkey",
+			"Types": [
+				{
+					"Type": "Donkey",
+					"DeluxeProduceLuck": 0.02,
+					"Data": "1/5/Donkey Milk/-1/none/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/644/10000/Donkey/Barn",
+					"Sprites": {
+						"Adult": "assets/donkey.png",
+						"Baby": "assets/babydonkey.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Donkey",
+				"Description": "These donkeys provide milk and calming company.",
+				"Price": 10000,
+				"Icon": "assets\\animal_shop_donkey.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

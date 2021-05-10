@@ -1,0 +1,9 @@
+{
+  "Name": "Donkey Goods",
+  "Author": "birdb",
+  "Version": "1.3",
+  "Description": "Adds Donkey products.",
+  "UniqueID": "donkeygoods.bb",
+  "MinimumApiVersion": "2.10",
+  "ContentPackFor": { "UniqueID": "spacechase0.JsonAssets" }
+  }

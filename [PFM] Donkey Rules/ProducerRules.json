@@ -1,0 +1,24 @@
+﻿[
+
+	// Oil Maker
+	{
+		"ProducerName": "Oil Maker", 
+		"InputIdentifier": "Donkey Milk", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack": 1, 
+		"MinutesUntilReady": 200, 
+		"OutputIdentifier": "Donkey Cream",  
+		"OutputName": null,  
+		"PreserveType": null, 
+		"InputPriceBased": false, 
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White", 
+	},
+
+
+]
