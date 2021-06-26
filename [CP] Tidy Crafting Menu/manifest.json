@@ -1,7 +1,7 @@
 {
-    "Name": "Tidy Crafting Menu",
+    "Name": "Boogies Tidy Crafting",
     "Author": "Boogie",
-    "Version": "1.5",
+    "Version": "2.1",
     "UniqueID": "Boogie.Crafting",
 	"Description": "Changes icon position in crafting menu",
     "MinimumApiVersion": "3.7.5",

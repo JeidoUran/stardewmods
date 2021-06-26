@@ -1,10 +1,11 @@
-values for the ini file if you dont use ingame mod menu:
+values for the config.json file if you dont use ingame mod menu:
 
-		Language Settings:"English"
 
-		Tidy Menu: "true, false"
+		Text:"English, Deutsch, Espanol, Portugues, Francais, Italiano, Magyar, Türk, Russian, Japanese, Korean, Chinese"
 
-		Fertilizer:"true, false"
+		Tidy Menu: "Small First, Big First"
+
+		Quality Fertilizer:"5x, 1x, OFF"
 
 		Wild Bait:"5x, 3x, 1x, OFF"
 
@@ -18,5 +19,5 @@ values for the ini file if you dont use ingame mod menu:
 
 		Golden Mega Bomb:"true, false"
 
-		No Jack-O-Lantern: "true, false"
+		No-Jack-o-Lantern: "true, false"
 

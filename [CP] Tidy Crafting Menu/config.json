@@ -1,12 +1,13 @@
 {
-  "Language Settings": "English",
-  "Tidy Menu": "true",
-  "Fertilizer": "false",
+  "Text": "English",
+  "Tidy Menu": "Small First",
+  "Quality Fertilizer": "OFF",
+  "Grass Starter": "OFF",
   "Wild Bait": "OFF",
-  "Rare Seed": "false",
-  "Burglar Ring": "false",
+  "Rare Seed": "true",
+  "Burglar Ring": "true",
   "Bombs": "OFF",
   "Ammo": "OFF",
   "Golden Mega Bomb": "false",
-  "No Jack-O-Lantern": "false"
+  "No Jack-o-Lantern": "false"
 }
