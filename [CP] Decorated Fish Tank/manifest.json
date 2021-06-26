@@ -1,0 +1,25 @@
+{
+   "Name": "[CP] Decorated Fish Tank",
+   "Author": "KAYA",
+   "Version": "1.0",
+   "Description": "Decorated Fish Tank Retexture.",
+   "UniqueID": "KAYA.DecoFishTank",
+	"UpdateKeys": [ "Nexus:9013" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+  "Dependencies": [   
+	   {
+		  "UniqueID": "KAYA.ModernFishTank",
+		  "IsRequired": false
+	   },
+	   {
+		  "UniqueID": "Yellog.YWB13",
+		  "IsRequired": false
+	   },
+	   {
+		  "UniqueID": "DustBeauty.IndustrialFurnitureSet",
+		  "IsRequired": false
+	   },
+	]
+}
