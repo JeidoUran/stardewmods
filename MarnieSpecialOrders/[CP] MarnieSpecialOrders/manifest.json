@@ -1,7 +1,7 @@
 {
   "Name": "Marnie Special Orders",
   "Author": "Tarniyar",
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "Description": "Marnie sells new machine as reward",
   "UniqueID": "Tarniyar.CP.MSO",
   "MinimumApiVersion": "3.0",
