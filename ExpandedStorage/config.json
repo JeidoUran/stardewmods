@@ -1,5 +1,4 @@
 {
-  "Controller": true,
   "Controls": {
     "OpenCrafting": "K",
     "ScrollUp": "DPadUp",
@@ -7,18 +6,13 @@
     "PreviousTab": "DPadLeft",
     "NextTab": "DPadRight"
   },
+  "Controller": true,
+  "ExpandInventoryMenu": true,
+  "ColorPicker": true,
+  "SearchTagSymbol": "#",
+  "VacuumToFirstRow": true,
+  "LogLevel": "Trace",
   "DefaultStorage": {
-    "Capacity": 0,
-    "EnabledFeatures": [
-      "ShowColorPicker",
-      "ShowSearchBar",
-      "ShowTabs"
-    ],
-    "DisabledFeatures": [
-      "AccessCarried",
-      "VacuumItems",
-      "CanCarry"
-    ],
     "Tabs": [
       "Crops",
       "Seeds",
@@ -28,7 +22,15 @@
       "Equipment",
       "Clothing",
       "Misc"
-    ]
+    ],
+    "Capacity": 0,
+    "EnabledFeatures": [
+      "CanCarry",
+      "ShowColorPicker",
+      "ShowSearchBar",
+      "ShowTabs"
+    ],
+    "DisabledFeatures": []
   },
   "DefaultTabs": {
     "Clothing": {
@@ -122,8 +124,5 @@
       ],
       "BlockList": []
     }
-  },
-  "VacuumToFirstRow": true,
-  "ExpandInventoryMenu": true,
-  "SearchTagSymbol": "#"
+  }
 }
