@@ -1,0 +1,23 @@
+{
+  "Capacity": 0,
+  "MenuRows": 4,
+  "CraftingRange": "Location",
+  "StashingRange": "Location",
+  "OpenCrafting": "K",
+  "StashItems": "W",
+  "ScrollUp": "DPadUp",
+  "ScrollDown": "DPadDown",
+  "PreviousTab": "DPadLeft",
+  "NextTab": "DPadRight",
+  "SearchTagSymbol": "#",
+  "Global": {
+    "CategorizeChest": true,
+    "ColorPicker": true,
+    "CraftFromChest": true,
+    "ExpandedMenu": true,
+    "InventoryTabs": true,
+    "SearchItems": true,
+    "StashToChest": true,
+    "AccessCarried": false
+  }
+}

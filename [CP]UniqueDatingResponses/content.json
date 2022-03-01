@@ -298,7 +298,8 @@
 				"birthdayDislikeB": "What?! Oh.. is this for my birthday?!$2#$b#Well... um... thanks?$7#$b#....thanks for nothing..$3",
 				"birthdayNeutralA": "Oh!  For my birthday?  Well, it's no Pink Cake but I appreciate you trying.",
 				"birthdayNeutralB": "Just handing me whatever is in your drawer aren't you.$1#$b#Thanks for remembering my birthday.",
-				
+				"giftquestion_yes": "Ah, then that's ok!$1#$b#You are so kind and honest, @.  I am proud to be your wife.$4",
+				"giftquestion_lie": "I'm pretty sure you did... you're not doing something behind my back are you?$3"
 			},
 		},
 			
@@ -390,7 +391,8 @@
 				"birthdayDislikeB": "I guess it's the thought that counted.$2",
 				"birthdayNeutralA": "Oh!  For my birthday?  Well, you tried.",
 				"birthdayNeutralB": "Did my birthday come up faster than you expected?#$b#Thank you for trying, @.",
-
+				"giftquestion_yes": "Oh.. that sounds like you, @!$1#$b#I wish others were generous like you.#$b#Thank you for your honesty hubby.<$4^Thank you for your honesty, wifey.<$4",
+				"giftquestion_lie": "Your energy is all wrong..$3#$b#You don't have to lie to me.. Unless you're up to something.$3"
 			},
 		},
 
@@ -479,7 +481,8 @@
 				"birthdayDislikeB": "... Is this a joke?$3#$b#...It's not funny...$3",
 				"birthdayNeutralA": "Oh!  For my birthday?  Well, you tried.",
 				"birthdayNeutralB": "Didn't have like a pumpkin in the farm or anything?#$b#Well maybe next year",
-				
+				"giftquestion_yes": "Oh!.. I'm sorry if I..$2#$b#I shouldn't doubt you... You've always been good to me.$4",
+				"giftquestion_lie": "Hey!What do you take me for?!$5#$b#I swear, if you're doing something, I'm going to find out eventually.$5",
 			},
 		},
 
@@ -568,7 +571,8 @@
 				"birthdayDislikeB": "... You're making fun of me aren't you?$5",
 				"birthdayNeutralA": "Oh!  For my birthday?  Well, you tried.",
 				"birthdayNeutralB": "You got this for my birthday?#$b#Well thanks for doing you best.$1",
-				
+				"giftquestion_yes": "Ah! I figured, but it never hurts to check on you once in a while.$1",
+				"giftquestion_lie": "I..I see..$2#$b#@, don't do anything we'd both regret... okay?$2",
 			},
 		},
 
@@ -657,7 +661,8 @@
 				"birthdayDislikeB": "... You're not good at presents are you?$5",
 				"birthdayNeutralA": "Oh!  For my birthday?  Well, you tried.",
 				"birthdayNeutralB": "You got this for my birthday?#$b#Well thanks for doing you best.$1",
-				
+				"giftquestion_yes": "Oh yeah?  Well I don't mind you giving gifts to your friends.$1#$b#Just make sure they aren't getting the wrong idea.$3",
+				"giftquestion_lie": "I gave you a chance to tell me the truth$5#$b#Don't lie to me again... ok?$5"
 			},
 		},
 
@@ -748,7 +753,8 @@
 				"birthdayDislikeB": "...How could you...$5",
 				"birthdayNeutralA": "Oh!  For my birthday?  Well, you tried.",
 				"birthdayNeutralB": "You got this for my birthday?#$b#Well thanks for doing you best.$1",
-				
+				"giftquestion_yes": "Oh.. so that's it.  I trust you, but sometimes your generousity can worry me.$1#$b#Don't let anyone take advantage of that.$1",
+				"giftquestion_lie": "@.. I thought you were better than that.$5#$b#I don't want you to make me worry.$2"
 			},
 		},
 		
@@ -837,7 +843,8 @@
 				"birthdayDislikeB": "....$5",
 				"birthdayNeutralA": "Oh!  For my birthday?  Well, you tried.",
 				"birthdayNeutralB": "You got this for my birthday?#$b#Well you could've done worse.$1",
-				
+				"giftquestion_yes": "Ah, sweet! Maybe we can invite them over sometime.$1",
+				"giftquestion_lie": "Hey, hey.. I am not stupid.. if you're lying, should I be worried?$5"
 			},
 		},
 
@@ -926,7 +933,8 @@
 				"birthdayDislikeB": "Oh... well.. this isn't good at all...$2#$b#Forgive me, I am sure you tried your best.$2",
 				"birthdayNeutralA": "Ahh.. I appreciate that you remembered my birthday.",
 				"birthdayNeutralB": "This gift was not the best I've gotten this year..#$b#However, I am happy you remembered nonetheless...$1",
-				
+				"giftquestion_yes": "Ahhh.. I remember how powerful you bond with friends.$1#$b#Sometimes I think we don't deserve such an angel as you.$4",
+				"giftquestion_lie": "Forgive me, dearest.  However, I believe that honesty is important in our relationship.$2#$b#Please, if you are innocent, be honest with me.$2",
 			},
 		},
 
@@ -1015,7 +1023,8 @@
 				"birthdayDislikeB": "....$5",
 				"birthdayNeutralA": "Ahh.. I appreciate that you remembered my birthday.",
 				"birthdayNeutralB": "Not what I'd consider a winner.. but I am still happy that you got me something.$1",
-
+				"giftquestion_yes": "Ah yes.  I do remember you two being good friends.$1",
+				"giftquestion_lie": "I wasn't born yesterday.$5"
 			},
 		},
 
@@ -1104,7 +1113,8 @@
 				"birthdayDislikeB": "....$5",
 				"birthdayNeutralA": "Is that for me?  Well it's the thought that counts right?",
 				"birthdayNeutralB": "I admit, I wasn't expecting this for my birthday.$1",
-				
+				"giftquestion_yes": "That's cool.  I guess I was worried for a sec there.$1#$b#You were always a generous one.$1",
+				"giftquestion_lie": "Oh, come on @!  I don't want to worry about something like this.$2#$b#We're doing ok, right?$2"
 			},
 		},
 
@@ -1193,7 +1203,8 @@
 				"birthdayDislikeB": "....$5",
 				"birthdayNeutralA": "Is that for me?  Well it's the thought that counts right?",
 				"birthdayNeutralB": "Well.. you tried right?",
-				
+				"giftquestion_yes": "Alright then.  I won't get in the way of you and your friends.",
+				"giftquestion_lie": "I hope you have good intentions, @.  I don't want you to cause drama in our lives.$6"
 			},
 		},
 
@@ -1283,7 +1294,8 @@
 				"birthdayDislikeB": "....$5",
 				"birthdayNeutralA": "Is that for me?  Well it's the thought that counts right?",
 				"birthdayNeutralB": "Well.. you tried right?",
-				
+				"giftquestion_yes": "That's alright.#$b#...I hope I didn't come out sounding like I was accusing you of anything..$2",
+				"giftquestion_lie": "Are you seriously going to lie to my face?$5"
 			},
 		},
 		

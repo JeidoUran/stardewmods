@@ -1,11 +1,12 @@
 {
    "Name": "Medieval_Craftables",
    "Author": "Gweniaczek",
-   "Version": "2.3.1",
-   "Description": "Craftables retextures matching Medieval buildings",
+   "Version": "2.4",
+   "Description": "Craftables retextures",
    "UniqueID": "Gweniaczek.Medieval_Craftables",
    "UpdateKeys": ["Nexus:5513"],
-   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher",
+					"MinimumVersion": "1.24.0"},
 		"Dependencies": [
 			{
 			"UniqueID": "Eemie.DarkerWood",

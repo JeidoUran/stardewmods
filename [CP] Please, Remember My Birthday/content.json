@@ -117,7 +117,7 @@
 "Action": "EditData",
 "Target": "Characters/schedules/Marnie",
 "Entries":  {
-            "spring_7": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink \"Strings\\schedules\\Marnie:spring.007\"/2300 AnimalShop 12 5 3 marnie_sleep"
+            "spring_7": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 21 1 marnie_drink \"Strings\\schedules\\Marnie:spring.007\"/2300 AnimalShop 12 5 3 marnie_sleep"
             },
 },
 

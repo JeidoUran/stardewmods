@@ -16,8 +16,7 @@
 				}
 			],
 			"Buildings": [
-				"Big Coop",
-				"Deluxe Coop"
+				"Big Coop", "Deluxe Coop",
 			],
 			"AnimalShop": {
 				"Name": "Rooster",

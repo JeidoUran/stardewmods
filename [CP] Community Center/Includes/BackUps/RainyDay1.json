@@ -1,0 +1,78 @@
+{
+    "Changes":  [
+//Cooking Class!
+
+//Initiating Event
+{   "Action": "EditData", 
+            "Target": "Data/Events/CommunityCenter",
+            "Entries":{ 
+                "69660003/e 36/p Penny/p Gus": "jaunty/11 9/Gus 8 5 0 Penny 9 12 0 farmer 14 5 0/addConversationTopic PennyGusCook 21/skippable/pause 500/emote Gus 56/pause 500/move Gus -2 0 0 true/move Penny 0 -2 0 true/emote Penny 28/move Penny 0 -5 3/pause 500/textAboveHead Penny \"Um... excuse me?\"/pause 500/faceDirection Gus 1/speak Gus \"Ah, Miss Penny! How are you today?$1\"/pause 500/emote Penny 32/move Penny -1 0 3/pause 500/speak Penny \"I've come to ask you a favor. If that's all right?\"/pause 500/emote Gus 8/pause 500/speak Gus \"Of course it is! Are you wanting me to make lunch for the children?\"/pause 500/speak Penny \"No. They bring their own lunch...This is... well, it's a personal favor.$2\"/faceDirection Penny 1/emote Penny 60/pause 1500/faceDirection Penny 3/speak Gus \"Oh... Well I'm very fond of Pam, but not in that way-$2\"/speak Penny \"Oh no, not that!$4#$b#I tried to cook for @.#$b#$p 73#And they said it was delicious...but I know they were only being polite.$2|And it was terrible.$2\"/pause 500/emote Penny 40/pause 1500/speak Penny \"Now, with JojaMart gone... well... I'm having to make more of my own meals.#$b#And I was hoping you could teach me how to cook?\"/pause 500/emote Gus 16/pause 1500/speak Gus \"Why, I'd be delighted to!\"/jump Penny 5/emote Penny 20/speak Gus \"Hardly anyone appreciates the simple pleasures of a home cooked meal nowadays.#$b#I'll tell you what, Miss Penny, how about we meet in here on Thursday mornings?\"/speak Penny \"That sounds great!\"/speak Gus \"Excellent, I've always wanted an apprentice.\"/emote Gus 32/emote Penny 20/pause 1500/end dialogue Penny \"@! Great news! Gus has agreed to teach me how to cook.#$b#$p 72#I'll be able to improve upon 'Chili de @'!$1|I'll be able to cook you a decent meal one day!$1#$b#How does that sound?$3\""
+              }
+        },
+// Jasper asks to join (if installed)
+{   "Action": "EditData", 
+    "Target": "Data/Events/CommunityCenter",
+    "When": {   "HasMod":"Lemurkat.NPCJasper"  },
+    "Entries":{ 
+        "69660004/e 69660003/A PennyGusCook/p Penny/p Gus/d Mon Tue Wed Fri Sat Sun": "jaunty/11 9/Gus 6 5 0 Penny 5 5 0 Jasper 9 12 0 farmer 13 6 3/skippable/pause 500/move Jasper 0 -7 3 true/speak Gus \"Now, you have to be careful not to overboil the spaghetti.#$b#Nobody likes soggy pasta!\"/speak Penny \"I can't believe you're trusting me with the recipe for your special sauce!$4\"/pause 500/speak Gus \"One thing to remember, Miss Penny, is that there is more to a recipe than just the ingredients.#$b#Most of the art of cooking is in the technique.#$b#And that, I'm afraid, takes years of practice.\"/pause 500/textAboveHead Jasper \"Um... hi?\"/faceDirection Penny 1/faceDirection Gus 1/speak Gus \"Ah, good morning Professor Jasper!\"/move Penny 0 1 1 true/move Jasper -1 0 3 true/speak Gus \"Did the aroma of my special pasta sauce lure you into the kitchen?\"/emote Jasper 28/pause 500/speak Jasper \"Not exactly, no. But I heard you were running... a cooking class?#$b#And... well, I wondered if I might be able to join it?#$b#Please?$4\"/speak Gus \"Of course, you may.#$b#Let me guess? You're also missing JojaMart's 101 frozen dinners?$1\"/emote Jasper 60/pause 1500/speak Gus \"We meet here, on Thursday mornings.\"/pause 500/speak Jasper \"Thank you. I promise I shall be a most diligent student.#$b#And Miss Penny, it's always a pleasure to see you too.$3\"/emote Penny 60/pause 1000/end"
+        }
+},
+
+//Schedule changes on Thursdays.
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Gus",
+    "When": {   "HasSeenEvent":"69660003"   },
+    "Entries": {
+        "Thu": "800 Saloon 16 4 2 gus_sit_down/830 CommunityCenter 5 5 1  \"Strings\\schedules\\Gus:CookingClass_{{Random:CC1, CC2, CC3 |key=CookingClass}}\"/1200 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
+            }  
+    },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Penny",
+    "When": {   "HasSeenEvent":"69660003"   },
+    "Entries": {
+        "Thu":"830 CommunityCenter 6 5 3 \"Strings\\schedules\\Penny:CookingClass_{{Random:CC1, CC2, CC3 |key=CookingClass}}\"/1200 CommunityCenter 7 5 0 penny_dishes/1230 CommunityCenter 40 18 0 penny_read/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep"
+        }
+    },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Jasper",
+    "When": {   "HasSeenEvent":"69660004", "HasMod":"Lemurkat.NPCJasper"   },
+    "Entries": {
+        "Thu": "610 Museum2 18 13 0/830 CommunityCenter 8 6 2 square_3_3 \"Strings\\schedules\\Jasper:CookingClass_{{Random:CC1, CC2, CC3 |key=CookingClass}}\"/1200 Town 46 32 2 Jasper_Read/1830 Museum2 12 14 2 Jasper_Exercise \"Strings\\schedules\\Jasper:008\"/2000 Museum2 18 4 2 jasper_sleep"
+        }
+    },
+{	"LogName": "Cooking Class Strings - Gus",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Gus",
+    "Entries": {
+        "CookingClass_CC1": "The trick to the perfect pizza is in the way you knead the dough. Follow my example.$1",
+        "CookingClass_CC2": "Now you add a little water. The steam adds air, and really fluffs up your eggs.",
+        "CookingClass_CC3": "Ah, Linus left me some fish. So today we are making maki rolls."
+            }				
+            },
+{	"LogName": "Cooking Class Strings - Penny", 
+    "Action": "EditData",
+    "Target": "Strings/schedules/Penny",
+    "Entries": {
+        "CookingClass_CC1": "Maybe one day I'll be able to impress Sam with a home-cooked pizza.$4",
+        "CookingClass_CC2": "Do you like omelets, @? You must have fresh eggs on your farm?$1",
+        "CookingClass_CC3": "Oh... it looks a little slimy. I'm not really sure about this recipe, Gus.$2"
+        }			
+    },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Strings/schedules/Jasper",
+    "When": {   "HasSeenEvent":"69660004", "HasMod":"Lemurkat.NPCJasper"   },
+    "Entries": {
+                "CookingClass_CC1": "Is there some way in which blueberries can become a valid pizza topping? No? Oh...$2",
+                "CookingClass_CC2": "Oh, I do remember omelets. My mother used to add a little cream. They were most decadent indeed!$3",
+                "CookingClass_CC3": "Hmmm, I do not think I rolled mine tightly enough. It's falling apart.$2"
+        }			
+    }
+
+
+
+    ]
+}

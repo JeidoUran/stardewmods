@@ -1,6 +1,6 @@
 {
 	"Name": "Oil Lamp Left",
-	"Description": "A fancy iron lamp post. Provides a good amount of light.",
+	"Description": "A fancy oil lamp post. Provides a good amount of light.",
 	"Price": 1000,
 	"ProvidesLight": true,
 	"Recipe": 

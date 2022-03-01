@@ -1,0 +1,281 @@
+[
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Adventurer's Pack",
+    "JsonAssetsName": "Adventurer's Pack",
+    "Texture": "assets/adventurerspack.png:0"
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "ShopId": "AdventurerGuild",
+    "Item": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Adventurer's Pack",
+      "Quantity": 1
+    },
+    "MaxSold": 2147483647,
+    "Cost": 4000
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Cigar Box",
+    "JsonAssetsName": "Cigar Box",
+    "Texture": "assets/cigarbox.png:0"
+  },
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Cigar Box recipe",
+    "IsCooking": false,
+    "KnownByDefault": false,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": 709,
+        "Quantity": 10
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": 428,
+        "Quantity": 1
+      }
+    ],
+    "Result": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Cigar Box",
+      "Quantity": 1
+    }
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Item": {
+      "Type": "DGARecipe",
+      "Value": "6480.StorageVariety/Cigar Box recipe"
+    },
+    "MaxSold": 1,
+    "Cost": 5000
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Dimensional Portal",
+    "JsonAssetsName": "Dimensional Portal",
+    "Texture": "assets/dimensionalportal.png:0"
+  },
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Dimensional Portal recipe",
+    "IsCooking": false,
+    "KnownByDefault": false,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": 768,
+        "Quantity": 25
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": 769,
+        "Quantity": 25
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": 386,
+        "Quantity": 10
+      }
+    ],
+    "Result": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Dimensional Portal",
+      "Quantity": 1
+    }
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "ShopId": "Krobus",
+    "Item": {
+      "Type": "DGARecipe",
+      "Value": "6480.StorageVariety/Dimensional Portal recipe"
+    },
+    "MaxSold": 1,
+    "Cost": 15000
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Ice Cooler",
+    "JsonAssetsName": "Ice Cooler",
+    "Texture": "assets/icecooler.png:0"
+  },
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Ice Cooler recipe",
+    "IsCooking": false,
+    "KnownByDefault": false,
+    "SkillUnlockName": "Farming",
+		"SkillUnlockLevel": 3,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": 167,
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": 390,
+        "Quantity": 20
+      }
+    ],
+    "Result": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Ice Cooler",
+      "Quantity": 1
+    }
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Lumber Pile",
+    "JsonAssetsName": "Lumber Pile",
+    "Texture": "assets/lumberpile.png:0"
+  },
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Lumber Pile recipe",
+    "IsCooking": false,
+    "KnownByDefault": false,
+    "SkillUnlockName": "Foraging",
+		"SkillUnlockLevel": 1,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": 388,
+        "Quantity": 30
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": 390,
+        "Quantity": 10
+      }
+    ],
+    "Result": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Lumber Pile",
+      "Quantity": 1
+    }
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Item": {
+      "Type": "DGARecipe",
+      "Value": "6480.StorageVariety/Lumber Pile recipe"
+    },
+    "MaxSold": 1,
+    "Cost": 20000
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Mini Storage Shed",
+    "JsonAssetsName": "Mini Storage Shed",
+    "Texture": "assets/ministorageshed-icon.png:0"
+  },
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Mini Storage Shed recipe",
+    "IsCooking": false,
+    "KnownByDefault": false,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": 709,
+        "Quantity": 10
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": 388,
+        "Quantity": 100
+      }
+    ],
+    "Result": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Mini Storage Shed",
+      "Quantity": 1
+    }
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Item": {
+      "Type": "DGARecipe",
+      "Value": "6480.StorageVariety/Mini Storage Shed recipe"
+    },
+    "MaxSold": 1,
+    "Cost": 20000
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Wooden Cabinet",
+    "JsonAssetsName": "Wooden Cabinet",
+    "Texture": "assets/woodencabinet.png:0"
+  },
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Wooden Cabinet recipe",
+    "IsCooking": false,
+    "KnownByDefault": false,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": 709,
+        "Quantity": 30
+      }
+    ],
+    "Result": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Wooden Cabinet",
+      "Quantity": 1
+    }
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Item": {
+      "Type": "DGARecipe",
+      "Value": "6480.StorageVariety/Wooden Cabinet recipe"
+    },
+    "MaxSold": 1,
+    "Cost": 4000
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Wrought-Iron Cellar",
+    "JsonAssetsName": "Wrought-Iron Cellar",
+    "Texture": "assets/wroughtironcellar-icon.png:0"
+  },
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Wrought-Iron Cellar recipe",
+    "IsCooking": false,
+    "KnownByDefault": false,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": 335,
+        "Quantity": 10
+      }
+    ],
+    "Result": {
+      "Type": "DGAItem",
+      "Value": "6480.StorageVariety/Wrought-Iron Cellar",
+      "Quantity": 1
+    }
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Item": {
+      "Type": "DGARecipe",
+      "Value": "6480.StorageVariety/Wrought-Iron Cellar recipe"
+    },
+    "MaxSold": 1,
+    "Cost": 15000
+  }
+]

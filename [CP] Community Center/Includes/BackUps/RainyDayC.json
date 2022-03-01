@@ -1,0 +1,121 @@
+{
+    "Changes": [
+
+{    "Action": "EditMap",
+    "Target": "Maps/CommunityCenter_refurbished",
+    "MapProperties": {
+        "Music": "shimmeringbastion"
+                }
+        },
+{ "LogName": "Animations",        
+    "Action": "EditData", 
+    "Target": "Data/animationDescriptions",
+    "Entries": {
+            "elliott_dance": "36/36 36 36 37 37 37/36", 
+            "leah_dance": "30/30 30 30 31 31 31/30",
+            "maru_dance": "29/29 29 29 30 30 30/29",
+            "emily_meditate": "48 49/50/49 48",
+            "emily_dance":"16/16 16 17 17 16 16 17 17 20 20 21 21 20 20 21 21 16 16 17 17 16 16 17 17 22 22 23 23 22 22 23 23/16"
+            }
+        },
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Emily",
+    "Entries": {
+        "rain":"830 CommunityCenter 39 12 2 emily_dance \"Strings\\schedules\\Emily:Dance_{{random:DC1,DC2,DC3}}\"/1200 CommunityCenter 26 17 2 emily_meditate  \"Strings\\schedules\\Emily:Dance_{{random:DC4,DC5,DC6}}\"/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+            }
+        },
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Elliott",
+    "Entries": {
+        "rain": "800 ElliottHouse 1 5 0/900 CommunityCenter 41 15 1 elliott_dance \"Strings\\schedules\\Elliott:Dance_{{random:DC1,DC2,DC3}}\"/1200 CommunityCenter 24 8 2 elliott_read \"Strings\\schedules\\Elliott:Dance_{{random:DC4,DC5,DC6}}\"/1530 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
+           }
+        },
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Maru",
+    "When": {	"DayOfWeek": "Monday, Wednesday, Friday"	},
+    "Entries": {
+        "rain": "800 CommunityCenter 38 16 0 maru_dance \"Strings\\schedules\\Maru:Dance_{{random:DC1,DC2,DC3}}/1230 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_tinker/1800 ScienceHouse 2 6 3/2000 ScienceHouse 9 6 1/2300 ScienceHouse 2 4 3 maru_sleep"
+            }
+        },  
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Leah",
+    "Entries": {
+        "rain": "830 CommunityCenter 42 15 3 leah_dance \"Strings\\schedules\\Leah:Dance_{{random:DC1,DC2,DC3}}\"/1200 CommunityCenter 23 9 2 leah_draw \"Strings\\schedules\\Leah:Dance_{{random:DC4,DC5,DC6}}/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep"
+                }
+        },
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Riley",
+    "When": {   "HasMod": "SG.Riley"   },
+    "Entries": {
+        "rain": "900 CommunityCenter 36 13 2 riley_dance \"Strings\\schedules\\Riley:Dance_{{random:DC1,DC2,DC3}}\"/1230 RileyHouse 13 11 1 riley_comp \"Strings\\schedules\\Riley:rainygame1\"/1700 Saloon 24 18 2 riley_dance/2200 RileyHouse 19 3 1 riley_sleep"
+            }
+        },
+{	"LogName": "Dance Class Strings - Emily",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Emily",
+    "Entries": {
+            "Dance_DC1": "Oh! You startled me! Sorry.$6",
+            "Dance_DC2": "%Emily appears lost in her own world. Better not disturb her.",
+            "Dance_DC3": "@! Hello! Do you want to join us? Just close your eyes and focus on the music.",
+            "Dance_DC4": "Phew, I'm exhausted! That was a great workout.$1",
+            "Dance_DC5": "%Emily doesn't seem to notice you.",
+            "Dance_DC6": "Ah.... breathe...."
+            
+                }				
+        },
+{	"LogName": "Dance Class Strings -  Elliott",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Elliott",
+    "Entries": {
+        "Dance_DC1": "Ah, good day to you, @! Care to join the dance?",
+        "Dance_DC2": "... with nary a backwards glance, Deana boarded... Oh, hello @! I 'twas congitating aloud, wasn't I?$1",
+        "Dance_DC3": "@! Welcome. I am currently disentangling a particularly gnarly snarl of plot.$1",
+        "Dance_DC4": "There is nothing quite like stepping into a book and being whisked away to another world, is there?",
+        "Dance_DC5": "I feel as though I've journeyed far, deep into the depths of my imagination! Reality is but a pale shade in comparison, @.",
+        "Dance_DC6": "Ah my body feels so limber, and my mind so clear and free! Emily really has the most marvellous ideas, doesn't she?"
+                }				
+        },
+{	"LogName": "Dance Class Strings -  Leah",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Leah",
+    "Entries": {
+        "Dance_DC1": "It's good to stretch my muscles. Sculpting is hard work, you know.$2",
+        "Dance_DC2": "I thought it was nonsense, but now I'm one with the music - and inspiration is flowing!$1",
+        "Dance_DC3": "Oh, hello @! Exercise is a great way to feel alive, don't you think?",
+        "Dance_DC4": "So many ideas! I wish I could write faster.",
+        "Dance_DC5": "Oh! My body aches, but it's a good ache, you know?",
+        "Dance_DC6": "Just have to make a few quick sketches... I'll turn these into paintings later.$1"
+             }				
+        },
+{	"LogName": "Dance Class Strings -  Maru",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Maru",
+    "Entries": {
+        "Dance_DC1": "Dance like nobody's watching, right? Come on! It's fun.$1",
+        "Dance_DC2": "Come on, shake your booty! Heh, I love this song!$1",
+        "Dance_DC3": "This meditative dancing lark... it's oddly invigorating!"
+            }				
+        },
+{	"LogName": "Dance Class Strings -  Riley",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Riley",
+    "When": {   "HasMod": "SG.Riley"   },
+    "Entries": {
+        "Dance_DC1": "Do I ever feel silly dancing by myself? Nah, I'm just having more fun than everyone else!$10",
+        "Dance_DC2": "Dancing is great exercise, and way more fun than a traditional workout!$h",
+        "Dance_DC3": "Hey @! Dance with us!!$10"
+            }				
+        }
+
+/*{	"LogName": "Dance Class Strings -  Blank",
+    "Action": "EditData",
+    "Target": "Strings/schedules/NPC",
+    "Entries": {
+        "Dance_DC1": "",
+        "Dance_DC2": "",
+        "Dance_DC3": ""
+            }
+        }*/
+
+    ]
+}

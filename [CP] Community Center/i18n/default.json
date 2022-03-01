@@ -2,110 +2,110 @@
     //  E V E N T S
     //(EventID.number)
     //Solarion
-    "69660001.1": "...so I say to the lich king...",
-    "69660001.2": "Lich king?!",
-    "69660001.3": "(whispers) Oh... yikes. Clint's looking this way.$2",
-    "69660001.4": "Hey, hi Clint. How's it going?",
-    "69660001.5": "Hey... hello. Are you kids playing Solarion Chronicles?",
-    "69660001.6": "Yup. We certainly are. You know it? Do you play?",
-    "69660001.7": "Know it? Yes! I had the first edition in school.#$b#But no-one ever wanted to play with me.$2",
-    "69660001.8": "I wonder why...",
-    "69660001.9": "What edition are they up to now?",
+    "69660001.1": "...so I say to the lich king...",//Sam
+    "69660001.2": "Lich king?!",//Clint
+    "69660001.3": "(whispers) Oh... yikes. Clint's looking this way.$2",//Abigail
+    "69660001.4": "Hey, hi Clint. How's it going?",//Sam
+    "69660001.5": "Hey... hello. Are you kids playing Solarion Chronicles?",//Clint
+    "69660001.6": "Yup. We certainly are. You know it? Do you play?",//Sam
+    "69660001.7": "Know it? Yes! I had the first edition in school.#$b#But no-one ever wanted to play with me.$2",//Clint
+    "69660001.8": "I wonder why...",//Abigail
+    "69660001.9": "What edition are they up to now?",//Clint
     "69660001.10": "Sixth edition. And they're epic. Hey... wanna join us?",
     "69660001.11": "We could really do with a cleric. The necromancer's zombies really kicked our butts.",
     "69660001.12": "Really?",
     "69660001.13": "Oh... I don't think that's a good idea.$2#$b#See you around Sam, Sebastian. Abigail.",
-    "69660001.14": "He's gone",
-    "69660001.15": "Thank Yoba",
-    "69660001.16": "Oh, come on guys!#$b#He's just lonely.",
-    "69660001.17": "Oh, hello @. I suppose you heard that?",
-    "69660001.18": "I don't know what I expected... anyway, I guess I'll head back to my shop now.",
-    "69660001.19": "Hey @.#$b#$q 696601 null#Would you like to play Solarion with us?#$r 696602 25 Solarion_Y#Yes, I would.#$r 696603 0 Solarion_N#No, not really my scene.#$r 696603 0 Solarion_B#No, I don't have time.#$r 696604 0 Solarion_Clint#That was mean. You should invite Clint.",
-    "69660001.20": "Can we get back to the game please?",
-    "69660001.21": "See you later, @.",
-    "69660001.22": "So, here's your character sheet...$1",
-    "69660001.23": "Great, now where were we... You'd just broken into the catacombs and...",
-    "69660001.24": "Nah, he's not a creep. He's just lonely.#$b#We should give him a chance. Who knows? He might have hidden depths.",
-    "69660001.25": "Okay, fine. But if he turns out to be a disaster, my necromancer will turn him into zombie chow.$5",
-    "69660001.26": "And if he looks at me the way he looks at Emily... well, I hope he likes the taste of cold steel!$1",
-    "69660001.27": "Thanks guys.",
-    "69660002.1": "Critical strike.",
-    "69660002.2": "Ouch, that really hurt!$2#$b#We could really do with a cleric right now.#$b#Why did you choose a thief?",
-    "69660002.3": "She's not a thief... she's a trickster$5",
-    "69660002.4": "Same thing...",
-    "69660002.5": "You need to patch yourself, or our warrior is going to die within, approximately, the next three rounds.",
-    "69660002.6": "Hey Clint.",
-    "69660002.7": "Hey...",
-    "69660002.8": "We could really do with some help right now...#$b#And Abigail has something to say to you.",
-    "69660002.9": "Abby...",
-    "69660002.10": "Fine",
-    "69660002.11": "I'm sorry I was nasty. We talked... and we wondered if you would join us.#$b#For a game. Just one. A kind of trial period. To see if you're any good.",
-    "69660002.12": "I would like to. Yes.#$b#Um, are you sure?$2",
-    "69660002.13": "Yes, of course we're sure.#$b#Sam, give him the character sheet already.$2",
-    "69660002.14": "Welcome to the party. You're our new cleric.$1#$b#Now, can you please heal Sam's warrior before he bleeds to death.",
-    "69660002.15": "Sure, yes of course. So, I um, draw a card and roll a dice now, right?",
-    "69660002.16": "Clint wasn't too bad. He saved Sam's life at least three times, mine once.#$b#And he didn't mention Emily at all...So yeah, he's okay. I guess.",
+    "69660001.14": "He's gone",//Sebastian
+    "69660001.15": "Thank Yoba",//Abigail
+    "69660001.16": "Oh, come on guys!#$b#He's just lonely.",//Sam
+    "69660001.17": "Oh, hello @. I suppose you heard that?",//Clint (to farmer)
+    "69660001.18": "I don't know what I expected... anyway, I guess I'll head back to my shop now.",//Clint
+    "69660001.19": "Hey @.#$b#$q 696601 null#Would you like to play Solarion with us?#$r 696602 25 Solarion_Y#Yes, I would.#$r 696603 0 Solarion_N#No, not really my scene.#$r 696603 0 Solarion_B#No, I don't have time.#$r 696604 0 Solarion_Clint#That was mean. You should invite Clint.",//Abigail
+    "69660001.20": "Can we get back to the game please?",//Sebastian
+    "69660001.21": "See you later, @.",//Sam
+    "69660001.22": "So, here's your character sheet...$1",//Sam
+    "69660001.23": "Great, now where were we... You'd just broken into the catacombs and...",//Sebastian
+    "69660001.24": "Nah, he's not a creep. He's just lonely.#$b#We should give him a chance. Who knows? He might have hidden depths.",//Sam
+    "69660001.25": "Okay, fine. But if he turns out to be a disaster, my necromancer will turn him into zombie chow.$5",//Sebastian
+    "69660001.26": "And if he looks at me the way he looks at Emily... well, I hope he likes the taste of cold steel!$1",//Abigail
+    "69660001.27": "Thanks guys.",//Sam
+    "69660002.1": "Critical strike.",//Sebastian
+    "69660002.2": "Ouch, that really hurt!$2#$b#We could really do with a cleric right now.#$b#Why did you choose a thief?",//Sam
+    "69660002.3": "She's not a thief... she's a trickster!$5",//Abigail
+    "69660002.4": "Same thing...",//Sam
+    "69660002.5": "You need to patch yourself, or our warrior is going to die within, approximately, the next three rounds.",//Sebastian
+    "69660002.6": "Hey Clint.",//Sam
+    "69660002.7": "Hey...",//Clint
+    "69660002.8": "We could really do with some help right now...#$b#And Abigail has something to say to you.",//Sam
+    "69660002.9": "Abby...",//Sam
+    "69660002.10": "Fine",//Abigail
+    "69660002.11": "I'm sorry I was nasty. We talked... and we wondered if you would join us.#$b#For a game. Just one. A kind of trial period. To see if you're any good.",//Abigail
+    "69660002.12": "I would like to. Yes.#$b#Um, are you sure?$2",//Clint
+    "69660002.13": "Yes, of course we're sure.#$b#Sam, give him the character sheet already.$2",//Sebastian
+    "69660002.14": "Welcome to the party. You're our new cleric.$1#$b#Now, can you please heal Sam's warrior before he bleeds to death.",//Sebastian
+    "69660002.15": "Sure, yes of course. So, I um, draw a card and roll a dice now, right?",//Clint
+    "69660002.16": "Clint wasn't too bad. He saved Sam's life at least three times, mine once.#$b#And he didn't mention Emily at all...So yeah, he's okay. I guess.",//Abigail
     //Cooking Classes
-    "69660003.1": "Ah, Miss Penny! How are you today?$1",
-    "69660003.2": "I've come to ask you a favor. If that's all right?",
-    "69660003.3": "Of course it is! Are you wanting me to make lunch for the children?",
-    "69660003.4": "No. They bring their own lunch...This is... well, it's a personal favor.$2",
-    "69660003.5": "Oh... Well I'm very fond of Pam, but not in that way-$2",
-    "69660003.6": "Oh no, not that!$4#$b#I tried to cook for @.#$b#$p 73#And they said it was delicious...but I know they were only being polite.$2|And it was terrible.$2",
-    "69660003.7": "Now, with JojaMart gone... well... I'm having to make more of my own meals.#$b#And I was hoping you could teach me how to cook?",
-    "69660003.8": "Hardly anyone appreciates the simple pleasures of a home cooked meal nowadays.#$b#I'll tell you what, Miss Penny, how about we meet in here on Thursday mornings?",
-    "69660003.9": "That sounds great!",
-    "69660003.10": "Excellent, I've always wanted an apprentice.",
-    "69660003.11": "@! Great news! Gus has agreed to teach me how to cook.#$b#$p 72#I'll be able to improve upon 'Chili de @'!$1|I'll be able to cook you a decent meal one day!$1#$b#How does that sound?$3",
-    "69660004.1": "Now, you have to be careful not to overboil the spaghetti.#$b#Nobody likes soggy pasta!",
-    "69660004.2": "I can't believe you're trusting me with the recipe for your special sauce!$4",
-    "69660004.3": "One thing to remember, Miss Penny, is that there is more to a recipe than just the ingredients.#$b#Most of the art of cooking is in the technique.#$b#And that, I'm afraid, takes years of practice.",
-    "69660004.4": "Um... hi?",
-    "69660004.5": "Ah, good morning Professor Jasper!",
-    "69660004.6": "Did the aroma of my special pasta sauce lure you into the kitchen?",
-    "69660004.7": "Not exactly, no. But I heard you were running... a cooking class?#$b#And... well, I wondered if I might be able to join it?#$b#Please?$4",
-    "69660004.8": "Of course, you may.#$b#Let me guess? You're also missing JojaMart's 101 frozen dinners?$1",
-    "69660004.9": "We meet here, on Thursday mornings.",
-    "69660004.10": "Thank you. I promise I shall be a most diligent student.#$b#And Miss Penny, it's always a pleasure to see you too.$3",
+    "69660003.1": "Ah, Miss Penny! How are you today?$1",//Gus
+    "69660003.2": "I've come to ask you a favor. If that's all right?",//Penny
+    "69660003.3": "Of course it is! Are you wanting me to make lunch for the children?",//Gus
+    "69660003.4": "No. They bring their own lunch...This is... well, it's a personal favor.$2",//Penny
+    "69660003.5": "Oh... Well I'm very fond of Pam, but not in that way-$2",//Gus
+    "69660003.6": "Oh no, not that!$4#$b#I tried to cook for @.#$b#$p 73#And they said it was delicious...but I know they were only being polite.$2|And it was terrible.$2",//Penny
+    "69660003.7": "Now, with JojaMart gone... well... I'm having to make more of my own meals.#$b#And I was hoping you could teach me how to cook?",//Penny
+    "69660003.8": "Hardly anyone appreciates the simple pleasures of a home cooked meal nowadays.#$b#I'll tell you what, Miss Penny, how about we meet in here on Thursday mornings?",//Gus
+    "69660003.9": "That sounds great!",//Penny
+    "69660003.10": "Excellent, I've always wanted an apprentice.",//Gus
+    "69660003.11": "@! Great news! Gus has agreed to teach me how to cook.#$b#$p 72#I'll be able to improve upon 'Chili de @'!$1|I'll be able to cook you a decent meal one day!$1#$b#How does that sound?$3",//Penny
+    "69660004.1": "Now, you have to be careful not to overboil the spaghetti.#$b#Nobody likes soggy pasta!",//Gus
+    "69660004.2": "I can't believe you're trusting me with the recipe for your special sauce!$4",//Penny
+    "69660004.3": "One thing to remember, Miss Penny, is that there is more to a recipe than just the ingredients.#$b#Most of the art of cooking is in the technique.#$b#And that, I'm afraid, takes years of practice.",//Gus
+    "69660004.4": "Um... hi?",//Jasper
+    "69660004.5": "Ah, good morning Professor Jasper!",//Gus
+    "69660004.6": "Did the aroma of my special pasta sauce lure you into the kitchen?",//Gus
+    "69660004.7": "Not exactly, no. But I heard you were running... a cooking class?#$b#And... well, I wondered if I might be able to join it?#$b#Please?$4",//Jasper
+    "69660004.8": "Of course, you may.#$b#Let me guess? You're also missing JojaMart's 101 frozen dinners?$1",//Gus
+    "69660004.9": "We meet here, on Thursday mornings.",//Gus
+    "69660004.10": "Thank you. I promise I shall be a most diligent student.#$b#And Miss Penny, it's always a pleasure to see you too.$3",//Jasper
     //EggFestPrep
-    "69660005.1": "Hi @! Your farm's looking great!#$b#hey, the Egg Festival's next week...#$b#... And we've decided to have an egg painting party!",
-    "69660005.2": "If you want to join us, come to the Community Center on Friday morning.#$b#It'll be fun!#$b#Anyway, see you!",
+    "69660005.1": "Hi @! Your farm's looking great!#$b#hey, the Egg Festival's next week...#$b#... And we've decided to have an egg painting party!",//Emily
+    "69660005.2": "If you want to join us, come to the Community Center on Friday morning.#$b#It'll be fun!#$b#Anyway, see you!",//Emily
     //Poetry Discussion
-    "69660006.1": "... whilst I will agree that song lyrics can be quite profound, I must respectably disagree that a song explicitly about ... *coughs*#$b#... intimate relationships does not constitute poetry.$5",
-    "69660006.2": "Really? Because I read your recommended readings... and some of them were outright scandalous!$3",
-    "69660006.3": "The difference, perhaps, is in the subtlety. The metaphor and turn of phrase. This? This is just crass!$8",
-    "69660006.4": "Hmm, I never took you for a literary snob, Elliott. Or a prude.$3",
-    "69660006.5": "Anyway, @'s here. Hey, @, what do you think?#$b#Should popular music count as poetry?",
+    "69660006.1": "... whilst I will agree that song lyrics can be quite profound, I must respectably disagree that a song explicitly about ... *coughs*#$b#... intimate relationships does not constitute poetry.$5",//Elliott
+    "69660006.2": "Really? Because I read your recommended readings... and some of them were outright scandalous!$3",//Haley
+    "69660006.3": "The difference, perhaps, is in the subtlety. The metaphor and turn of phrase. This? This is just crass!$8",//Elliott
+    "69660006.4": "Hmm, I never took you for a literary snob, Elliott. Or a prude.$3",//Haley
+    "69660006.5": "Anyway, @'s here. Hey, @, what do you think?#$b#Should popular music count as poetry?",//Haley
     "69660006.6": "#Yes, of course!#No way.#Keep me out of this.#It's subjective.",
-    "69660006.7": "Hah, see?",
-    "69660006.8": "Ah, I see @, you have refined tastes too.",
-    "69660006.9": "Spoilsport.",
-    "69660006.10": "Of course, yes, spoken like a true neutralist.#$b#Poetry, like art, is indeed subjective.",
-    "69660006.11": "Can you two just agree to disagree on this one?#$b#Now, are we going to hear the poem for today, or not?",
-    "69660006.12": "I am prepared to agree on a compromise, Haley.",
-    "69660006.13": "For poetry should, at its base level, evoke emotion, and if your popular music affects you at that level, then so be it.$1",
-    "69660006.14": "Err, thanks. I think.",
-    "69660006.15": "Now if you would care to begin the reading for today...",
-    "69660006.16": "You mean I have to read this... out loud?!$8",
+    "69660006.7": "Hah, see?",//Haley
+    "69660006.8": "Ah, I see @, you have refined tastes too.",//Elliott
+    "69660006.9": "Spoilsport.",//Haley
+    "69660006.10": "Of course, yes, spoken like a true neutralist.#$b#Poetry, like art, is indeed subjective.",//Elliott
+    "69660006.11": "Can you two just agree to disagree on this one?#$b#Now, are we going to hear the poem for today, or not?",//Leah
+    "69660006.12": "I am prepared to agree on a compromise, Haley.",//Elliott
+    "69660006.13": "For poetry should, at its base level, evoke emotion, and if your popular music affects you at that level, then so be it.$1",//Elliott
+    "69660006.14": "Err, thanks. I think.",//Haley
+    "69660006.15": "Now if you would care to begin the reading for today...",//Elliott
+    "69660006.16": "You mean I have to read this... out loud?!$8",//Haley
     //Leo joins the class
-    "69660010.00": "Who are you?",
-    "69660010.01": "That's my seat!$3",
-    "69660010.02": "I'm Leo. I'm sorry, I didn't mean to take your seat.$2",
-    "69660010.03": "Oh, that's okay. I don't mind sitting next to Vinny.$1",
-    "69660010.04": "I like your clothes... Do you collect feathers too?$3",
-    "69660010.05": "They were gifts... from my... my bird family.",
-    "69660010.06": "Your bird family? You have a bird family? Like pets? What species? Were they parrots? Those look like parrot feathers!$3",
-    "69660010.07": "Not pets... like friends... family...$2",
-    "69660010.08": "I know you've got lots of questions for Leo, Eloise. But it would be a good idea to save them for later.",
-    "69660010.09": "Leo's shy. And you're scaring him.$4",
-    "69660010.10": "I'm sorry, Leo. I didn't mean to scare you...$2#$b#I'm just excited and I really, really love birds. Can we be friends?$3",
-    "69660010.11": "I would like to be friends, yes. Would you like to meet some of my bird family?$3",
-    "69660010.12": "I'd love that.$1#$b#And I promise I won't ask too many questions, okay?",
-    "69660010.13": "I can be quiet, honest!",
-    "69660010.14": "It's okay. My bird family, they can be pretty noisy too.$1",
-    "69660010.15": "Excuse me children, but it's time for today's lesson...",
-    "69660010.16": "Today we're going to learn a little about...",
-    "69660010.17": "Oh...",
+    "69660010.00": "Who are you?",//Eloise
+    "69660010.01": "That's my seat!$3",//Eloise
+    "69660010.02": "I'm Leo. I'm sorry, I didn't mean to take your seat.$2",//Leo
+    "69660010.03": "Oh, that's okay. I don't mind sitting next to Vinnie.$1",//Eloise
+    "69660010.04": "I like your clothes... Do you collect feathers too?$3",//Eloise
+    "69660010.05": "They were gifts... from my... my bird family.",//Leo
+    "69660010.06": "Your bird family? You have a bird family? Like pets? What species? Were they parrots? Those look like parrot feathers!$3",//Eloise
+    "69660010.07": "Not pets... like friends... family...$2",//Leo
+    "69660010.08": "I know you've got lots of questions for Leo, Eloise. But it would be a good idea to save them for later.",//Leo
+    "69660010.09": "Leo's shy. And you're scaring him.$4",//Jas
+    "69660010.10": "I'm sorry, Leo. I didn't mean to scare you...$2#$b#I'm just excited and I really, really love birds. Can we be friends?$3",//Eloise
+    "69660010.11": "I would like to be friends, yes. Would you like to meet some of my bird family?$3",//Leo
+    "69660010.12": "I'd love that.$1#$b#And I promise I won't ask too many questions, okay?",//Eloise
+    "69660010.13": "I can be quiet, honest!",//Eloise
+    "69660010.14": "It's okay. My bird family, they can be pretty noisy too.$1",//Leo
+    "69660010.15": "Excuse me children, but it's time for today's lesson...",//Penny
+    "69660010.16": "Today we're going to learn a little about...",//Penny
+    "69660010.17": "Oh...",//Eloise
     //  S T R I N G S
     //(keyword.NPC.number)
     //EggFest
@@ -149,9 +149,9 @@
     //(keyword.NPC.number)
     //Community Center specific dialogue
     "CommunityCenter.Gus.1": "Ah, good morning @! I keep the fridge well-stocked with leftovers.#$b#I wouldn't want anyone in this town to go hungry.",
-    "CommunityCenter.Linus.1": "Good afternoon, my friend. Ah yes, as much as I enjoy nature's shower, a hot meal and a sturdy roof do wodners in restoring the spirit.$1",
+    "CommunityCenter.Linus.1": "Good afternoon, my friend. Ah yes, as much as I enjoy nature's shower, a hot meal and a sturdy roof do wonders in restoring the spirit.$1",
     "CommunityCenter.Linus.2": "Good afternoon, my friend. Ah yes, they are noisy, but it is grand to hear such spirited enthusiasm.$1",
-    //Schoolroom dialogue
+    //Schoolroom dialogue (name at front is speaker)
     "Penny.sch1": "Pelican Town's rivers are teeming with life, from tiny invertebrates to large fish.",
     "Penny.sch2": "Hello @. Today we're discussing life cycles of insects: from egg to adult.",
     "Penny.sch3": "Plants absorb energy through sunlight, using a process called photosynthesis.",
@@ -196,7 +196,7 @@
     "Eloise.sch6": "Sssh, farmer @. We're doing a worksheet.#$b#I've got to concentrate!",
     "Eloise.sch4.jasper": "Hello farmer @! Did you know that...#$b#%Eloise shares her _extensive_ new knowledge on gemstones with you",
     "Eloise.sch5.jasper": "Did you know Professor Jasper lived with the goblins?$3#$b#They sound cool, but also quite scary. I'm not sure I'd ever wanna meet one.$2",
-    "Eloise.sch6.jasper": "I don't know why Vinny's so excited.#$b#It's only vinegar and baking soda. My dad uses it to clean the drains.",
+    "Eloise.sch6.jasper": "I don't know why Vinnie's so excited.#$b#It's only vinegar and baking soda. My dad uses it to clean the drains.",
     "Eloise.sch7": "We're writing stories today! Mine's about a parrot.#$b#He escaped from his cage, and now he's having a grand adventure!",
     "Eloise.sch8": "%Eloise is focused on her book.",
     "Eloise.sch9": "Oh farmer @! Can you help me? We're writing poems... and nothing rhymes with 'orange'...$2#$b#Strange? No... that's not right either...",
@@ -204,10 +204,10 @@
     "Jasper.sch5": "Oh dear... we were supposed to be discussing subterranean movement... but somehow I have allowed the children to steer me off course.$2#$b#I do not think Miss Penny is very pleased.$2",
     "Jasper.sch6": "One thing I remember, @, is that children are more interested in hands-on science.$1#$b#Make an explosion or a stink, and you can keep them entralled for hours.$3",
     //answers
-    "solarion.Y": "Awesome! So you'll play the Cleric?$1#$b#Heal me first, that last zombie mermaid nearly decimated me.$2",
-    "solarion.N": "Really? I suppose theses games are nothing compared to the real deal, right?",
-    "solarion.B": "Of course, I bet you're running off to the mines to have an actual adventure!$1",
-    "solarion.C": "Seriously? Okay, yeah, we were a bit harsh.#$b#But the guy's a weirdo. Have you seen the way he looks at Emily?$5",
+    "solarion.Y": "Awesome! So you'll play the Cleric?$1#$b#Heal me first, that last zombie mermaid nearly decimated me.$2",//Abigail
+    "solarion.N": "Really? I suppose theses games are nothing compared to the real deal, right?",//Abigail
+    "solarion.B": "Of course, I bet you're running off to the mines to have an actual adventure!$1",//Abigail
+    "solarion.C": "Seriously? Okay, yeah, we were a bit harsh.#$b#But the guy's a weirdo. Have you seen the way he looks at Emily?$5",//Abigail
     // S T R I N G S
     //Solarion Chronicles
     "RainyDayA.Abigail.1": "You distract the guards, I'll search for secret passages.",
@@ -224,10 +224,10 @@
     "RainyDayA.Clint.3": "You know... we could try talking to him? Perhaps he can be reasoned with? No...oh, okay.$2",
     //Book Group
     "RainyDayB.Evelyn.1": "He's far too old for her... oh, he may be forever youthful, but she's a teenage girl. Whatever could he see in her?$2",
-    "RainyDayB.Evelyn.2": "Oh, I couldn't put it down! So many twists. I certainly didn't see that ending coming.$1",
+    "RainyDayB.Evelyn.2": "Oh, I couldn't put it down! So many twists. I didn't see that ending coming.$1",
     "RainyDayB.Evelyn.3": "When you get to my age, the only passion you see is in books. And oh my, this book certainly made me blush!$1",
     "RainyDayB.Caroline.1": "You know, I would've liked to see the girl save herself, even just once. But no... it always had to be her 'knight'.$2",
-    "RainyDayB.Caroline.2": "The author's certainly proud of his research... but I'm pretty sure most of it was nonsense. Still, it was fun.$1",
+    "RainyDayB.Caroline.2": "The author's proud of his research... but I'm pretty sure most of it was nonsense. Still, it was fun.$1",
     "RainyDayB.Caroline.3": "She had to travel through time to meet her soulmate. Yes, it's cheesy. I consider it a guilty plasure.$1",
     "RainyDayB.Jodi.1": "Oh, young love. It's always so... so passionate.$1",
     "RainyDayB.Jodi.2": "I'm afraid I didn't finish it. I'm not really fond of thrillers. Being popular doesn't always mean it's good.",
@@ -327,17 +327,29 @@
     "RainyDayF.MisterGinger.1": "She's building me a birdhouse. Imagine that, my own private pantry.$1",
     "RainyDayF.MisterGinger.2": "What? I can't help her. Oh, you think you're so smug with your fingers and all.",
     "RainyDayF.MisterGinger.3": "Cozy, isn't it? Maybe I should come to school with Jas more often. Who knows? I might even learn something.",
-    "RainyDayF.MisterGinger.4": "Glad Shane's finally stepped into the godfather role, now he's got a little competition.$1",
-    "RainyDayF.MisterGinger.5": "Jas's birdhouse looks better than Shane's. Me? Oh, I'd be useless. Not even going to try.$1",
-    "RainyDayF.MisterGinger.6": "I'm going to knit Shane a scarf. What color do you think would suit him? Hah, I know he'd never wear it.",
-    "RainyDayF.MisterGinger.7": "This design? Oh, it's called surrealism. The birds are going to love it.$1",
-    "RainyDayF.MisterGinger.8": "Drat... I've put the perch above the hole. Again...$2",
-    "RainyDayF.MisterGinger.9": "What do you mean a bird can't fit in there? They're small. Okay... maybe not _that_ small!$3",
+    "RainyDayF.Tristan.4": "Glad Shane's finally stepped into the godfather role, now he's got a little competition.$1",
+    "RainyDayF.Tristan.5": "Jas's birdhouse looks better than Shane's. Me? Oh, I'd be useless. Not even going to try.$1",
+    "RainyDayF.Tristan.6": "I'm going to knit Shane a scarf. What color do you think would suit him? Hah, I know he'd never wear it.",
+    "RainyDayF.Tristan.7": "This design? Oh, it's called surrealism. The birds are going to love it.$1",
+    "RainyDayF.Tristan.8": "Drat... I've put the perch above the hole. Again...$2",
+    "RainyDayF.Tristan.9": "What do you mean a bird can't fit in there? They're small. Okay... maybe not _that_ small!$3",
     "RainyDayF.Jade.1": "If I make this good enough... maybe a fairy will move in.$4",
     "RainyDayF.Jade.2": "Oh... it's crooked. Again. How has Jas got hers so neat?$2",
-    "RainyDayF.Jade.3": ":Why don't you join us, @? Birds are good for pest control. Well, except when they are the pest!",
+    "RainyDayF.Jade.3": "Why don't you join us, @? Birds are good for pest control. Well, except when they are the pest!",
     //Leo strings
     "RainyDay.Leo.1":"Watching them swim makes me feel sleepy. And maybe a little hungry as well!$1",
     "RainyDay.Leo.2":"This place is pretty nice. It feels safe. But it's not as cozy as my treehouse.",
     "RainyDay.Leo.3":"Linus is cooking lunch. Would you like to join us? The fish is really fresh; we caught it this morning."
+
+    //And this event which I haven't i18n'd yet:
+    /*  speak Leo \"@! You're friends with Ellie, right?\"
+    speak Leo \"She doesn't seem to want to talk to me anymore.$2#$b#I think maybe I made some stupid mistake and now she's mad at me.$3\"
+    quickQuestion #She thinks you'll like her better if she's quiet.#She has a crush on you, and she's jealous of Jas.#Why don't you just ask her yourself?#She thinks you're weird.
+    speak Leo \"Why would she think that? Cos I said she chattered like a parrot?$2#$b#I thought that was a compliment. Parrots are awesome.$3\"
+    speak Leo \"A crush... on me? But she's so fun and friendly. Why would she like a guy like me?$3\
+    speak Leo \"Yeh... I probably should. But what if she says something I don't like?$3#$b#Oh, I'm sure she won't; I'll be okay.$1\"
+    speak Leo \"Does she...Oh...$2#$b#That's okay. Linus says it's fine to be different. It's what makes us all unique.\"
+    speak Leo \"You know what? I'm going to go talk to her now.#$b#Bye @.\"
+    textAboveHead Leo \"Ellie!\
+    speak Leo \"So... Ellie... you've been kinda quiet recently. And there's something I've gotta talk to you about....$3\*/
 }

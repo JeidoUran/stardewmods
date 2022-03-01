@@ -13,7 +13,7 @@
     "Action": "EditData",  
     "Target": "Characters/schedules/Haley",
     "Entries": {
-        "rain": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:CCrain.000\"/1030 CommunityCenter 42 29 3 \"Strings\\schedules\\Haley:PoetryClub_{{Random:PC1,PC2,PC3|key=PoetryClub}}\"/1500 HaleyHouse 7 16 0/2200 HaleyHouse 1 5 3 haley_sleep"
+        "rain": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:CCrain.000\"/1030 CommunityCenter 42 20 3 \"Strings\\schedules\\Haley:PoetryClub_{{Random:PC1,PC2,PC3|key=PoetryClub}}\"/1500 HaleyHouse 7 16 0/2200 HaleyHouse 1 5 3 haley_sleep"
              }
         },  
 {   "LogName": "Schedule",  
@@ -77,7 +77,7 @@
 {   "Action": "EditData", 
     "Target": "Data/Events/CommunityCenter",
     "Entries":{ 
-        "69660006/p Haley/p Elliott/p Leah/w rainy": "50s/40 21/farmer 33 22 1 Elliott 38 20 1 Haley 39 19 2 Leah 42 20 3/skippable/pause 500/move farmer 0 -5 2 true/speak Elliott \"{{i18n:69660006.1}}\"/pause 500/speak Haley \"{{i18n:69660006.2}}\"/move farmer 5 0 2 true/pause 500/emote Elliott 60/speak Elliott \"{{i18n:69660006.3}}\"/speak Haley \"{{i18n:69660006.4}}\"/faceDirection Haley 0/speak Haley \"{{i18n:69660006.5}}\"/quickQuestion {{i18n:69660006.6}}(break)emote Haley 20\\speak Haley \"{{i18n:69660006.7}}\"(break)emote Haley 12\\speak Elliott \"{{i18n:69660006.8}}\"(break)speak Haley \"{{i18n:69660006.9}}\"(break)speak Elliott \"{{i18n:69660006.10}}\"/pause 500/speak Leah \"{{i18n:69660006.11}}\"/speak Elliott \"{{i18n:69660006.12}}\"/faceDirection Haley 2/speak Elliott \"{{i18n:69660006.13}}\"/emote Haley 60/pause 1000/speak Haley \"{{i18n:69660006.14}}\"/speak Elliott \"{{i18n:69660006.15}}\"/pause 1000/speak Haley \"{{i18n:69660006.16}}\"/emote Haley 28/pause 1000/end" 
+        "69660006/p Haley/p Elliott/p Leah/w rainy": "50s/40 21/farmer 32 22 1 Elliott 38 20 1 Haley 39 19 2 Leah 42 20 3/skippable/pause 500/move farmer 0 -5 2 true/speak Elliott \"{{i18n:69660006.1}}\"/pause 500/speak Haley \"{{i18n:69660006.2}}\"/move farmer 5 0 2 true/pause 500/emote Elliott 60/speak Elliott \"{{i18n:69660006.3}}\"/speak Haley \"{{i18n:69660006.4}}\"/faceDirection Haley 0/speak Haley \"{{i18n:69660006.5}}\"/move farmer 0 2 1/quickQuestion {{i18n:69660006.6}}(break)emote Haley 20\\speak Haley \"{{i18n:69660006.7}}\"(break)emote Haley 12\\speak Elliott \"{{i18n:69660006.8}}\"(break)speak Haley \"{{i18n:69660006.9}}\"(break)speak Elliott \"{{i18n:69660006.10}}\"/pause 500/speak Leah \"{{i18n:69660006.11}}\"/speak Elliott \"{{i18n:69660006.12}}\"/faceDirection Haley 2/speak Elliott \"{{i18n:69660006.13}}\"/emote Haley 60/pause 1000/speak Haley \"{{i18n:69660006.14}}\"/speak Elliott \"{{i18n:69660006.15}}\"/pause 1000/speak Haley \"{{i18n:69660006.16}}\"/emote Haley 28/pause 1000/end" 
             }
         }
 

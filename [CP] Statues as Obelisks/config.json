@@ -1,3 +1,7 @@
 {
-  "earthoption": "1"
+  "Replaced": "Earth, Water, Desert, Island, Farm, EastScarpe",
+  "earthoption": "1",
+  "SpringPetals": "true",
+  "FallColor": "1",
+  "RecolourOverwrite": ""
 }

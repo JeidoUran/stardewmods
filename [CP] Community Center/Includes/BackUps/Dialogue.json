@@ -1,0 +1,20 @@
+{
+    "Changes": [
+
+{   "Action": "EditData",  
+    "Target": "Characters/Dialogue/Gus",
+    "Entries": { 
+        "CommunityCenter": "{{i18n:CommunityCenter.Gus.1}}"
+        //"Ah, good morning @! I keep the fridge well-stocked with leftovers.#$b#I wouldn't want anyone in this town to go hungry."
+         }
+     },
+{   "Action": "EditData",  
+    "Target": "Characters/Dialogue/Linus",
+    "Entries": { 
+         "CommunityCenter": "{{i18n:CommunityCenter.Linus.1}}"
+         //"Good afternoon, my friend. Ah yes, as much as I enjoy nature's shower, a hot meal and a sturdy roof do wodners in restoring the spirit.$1"
+        }
+    }
+
+    ]
+}

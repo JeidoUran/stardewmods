@@ -62,7 +62,7 @@
                 "Target": "Characters/schedules/MisterGinger",
                 "When": {   "HasMod":"LemurKat.Tristan.CP", "HasSeenEvent":"5295002", "Spouse |contains=Shane":false   },
                 "Entries": {	
-                    "rain": "0800 ESHouse1 20 19 0/1100 ESHouse1 7 18 misterginger_knit/1200 CommunityCenter 13 18 2 misterginger_knit \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW4,WW5,WW6}}/2000 ESHouse1 23 4 2 misterginger_sleep"
+                    "rain": "0800 Custom_ESHouse1 20 19 0/1100 Custom_ESHouse1 7 18 misterginger_knit/1200 CommunityCenter 13 19 2 misterginger_knit \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW4,WW5,WW6}}/2000 Custom_ESHouse1 23 4 2 misterginger_sleep"
                         }
                 },
         {   "LogName": "Schedule",  
@@ -70,7 +70,7 @@
             "Target": "Characters/schedules/MisterGinger",
             "When": {   "HasMod":"LemurKat.Tristan.CP", "HasSeenEvent":"5295000", "Spouse |contains=Shane":true   },
             "Entries": {	
-                    "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW7,WW8,WW9}}/2000 ESHouse1 23 4 2 misterginger_sleep"
+                    "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW7,WW8,WW9}}/2000 Custom_ESHouse1 23 4 2 misterginger_sleep"
                     }
             },
 {   "LogName": "Schedule",  
@@ -136,12 +136,12 @@
         "Woodwork_WW1": "{{i18n:RainyDayF.MisterGinger.1}}",
         "Woodwork_WW2": "{{i18n:RainyDayF.MisterGinger.2}}",
         "Woodwork_WW3": "{{i18n:RainyDayF.MisterGinger.3}}",
-        "Woodwork_WW4": "{{i18n:RainyDayF.MisterGinger.4}}",
-        "Woodwork_WW5": "{{i18n:RainyDayF.MisterGinger.5}}",
-        "Woodwork_WW6": "{{i18n:RainyDayF.MisterGinger.6}}",
-        "Woodwork_WW7": "{{i18n:RainyDayF.MisterGinger.7}}",
-        "Woodwork_WW8": "{{i18n:RainyDayF.MisterGinger.8}}",
-        "Woodwork_WW9": "{{i18n:RainyDayF.MisterGinger.9}}"
+        "Woodwork_WW4": "{{i18n:RainyDayF.Tristan.4}}",
+        "Woodwork_WW5": "{{i18n:RainyDayF.Tristan.5}}",
+        "Woodwork_WW6": "{{i18n:RainyDayF.Tristan.6}}",
+        "Woodwork_WW7": "{{i18n:RainyDayF.Tristan.7}}",
+        "Woodwork_WW8": "{{i18n:RainyDayF.Tristan.8}}",
+        "Woodwork_WW9": "{{i18n:RainyDayF.Tristan.9}}"
             }
         },
 

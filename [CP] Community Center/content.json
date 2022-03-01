@@ -72,7 +72,7 @@
 				"HasSeenEvent": "59020025"
 			}
 		},
-		{ //Life Cycle ES adjustment
+		/*{ //Life Cycle ES adjustment
 			"Name": "PennyEnd",
 			"Value": "Custom_PSHouse 20 5 1",
 			"When": {
@@ -88,7 +88,7 @@
 				"HasMod": "EastScarpe.LifeCyclePennySam",
 				"HasSeenEvent": "59020025"
 			}
-		},
+		},*/
 		{
 			"Name": "PennyStart",
 			"Value": "Trailer 6 5 0",
@@ -109,14 +109,14 @@
 				"HasSeenEvent": "59020025"
 			}
 		},
-		{ //Life Cycle
+		/*{ //Life Cycle
 			"Name": "PennyStart",
 			"Value": "Custom_PSHouse 13 14 1",
 			"When": {
 				"HasMod: |contains=nraittanna.LifeCyclePennySam.EastScarpeVersion": "true",
 				"HasSeenEvent": "59020025"
 			}
-		},
+		},*/
 	],
 	"Changes": [
 		//Stops NPCs walking through furniture in Community Center
@@ -244,7 +244,8 @@ F: People not yet involved in anything: Demetrius, Pierre, George, Alex, Kent, L
 			"FromFile": "Includes/SchoolSchedule.json",
 			"When": {
 				"SchoolSchedule": true,
-				"HasSeenEvent": "191393"
+				"HasSeenEvent": "191393",
+				"HasSeenEvent |contains=9695001":false
 			}
 		},
 		//Chooses one randomly
@@ -253,7 +254,8 @@ F: People not yet involved in anything: Demetrius, Pierre, George, Alex, Kent, L
 			"FromFile": "Includes/RainyDay{{RainDay}}.json",
 			"When": {
 				"RainyDaySchedule": true,
-				"HasSeenEvent": "191393"
+				"HasSeenEvent": "191393",
+				"Weather": "rain,storm"
 				//
 			}
 		},
@@ -325,7 +327,7 @@ Event codes:
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
 				//Bulletin Board
-				"CCBulletinBoard.1": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
+				"CCBulletinBoard.1": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
 				"CCBulletinBoard.2": "PEST CONTROL SPECIALISTS^Have slimes oozed into your basement? Does a monster lurk under your bed? Your friends at the Adventurer's Guild are here to help!^\"Free Quotes\"^^Call Marlon or Gil on XXX-XXXX.",
 				"CCBulletinBoard.3": "Need a break away from it all?^Visit Mermaid Island!^ Feast upon exotic fruit, soak your feet in the ocean, catch rare and exotic fish - and witness the most beautiful sunsets in the world.^Call N3XU5-1D-4216 to book your grand escape today!",
 				"CCBulletinBoard.4": "Band available to play in any venue, large or small. Competitive rates.^Call Sam on XXX-XXXX",
@@ -340,17 +342,17 @@ Event codes:
 				"CCBulletinBoard.13": "Several sightings of a huge hairy creature near the forest have recently been reported. We urge you to stay indoors at night and keep your livestock safe.^^Please report any strange happenings by calling N3XUS-1D-4594.",
 				"CCBulletinBoard.14": "Need a roof over your head?^^Joel's boarding house offers both short term and long term accomodation for anyone seeking the sanctuary of Stardew Valley.^^Call N3XU5-1D-4120 for more information.",
 				"CCBulletinBoard.15": "Are you tired of harvesting crops the regular way? Looking for some extra excitement on your farm? With a little \"help\" from a witch, your crops can come to beastly life and face you in glorious combat! Gain experience and reap valuable bonuses. To be connected with your local witch, call N3XU5-1D-6030 today!",
-				"CCBulletinBoard.16": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
-				"CCBulletinBoard.17": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
-				"CCBulletinBoard.18": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
+				"CCBulletinBoard.16": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
+				"CCBulletinBoard.17": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
+				"CCBulletinBoard.18": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
 				"CCBulletinBoard.19": "Are you brave of heart and strong of spirit? Yes? Then the Adventurer's Guild need YOU!^^The creatures of the void are becoming increasingly bold and possess a threat to the fine folk of Stardew Valley.^^If you feel you have what it takes to become a Defender of the Valley, call in at the Adventurer's Guild and speak to Marlon or Gill.^^*Recruitment will involve a physical test. The Adventurer's Guild are not responsible for loss of life or limb incurred during this process.",
-				"CCBulletinBoard.20": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
+				"CCBulletinBoard.20": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
 				"CCBulletinBoard.21": "Your friendly local television company is seeking new local talent for our public access channels. Get your neighbors involved with the community and discover what they have to tell you! To make sure you have these channels installed, call our service line at N3XU5-1D-5605.",
-				"CCBulletinBoard.22": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
-				"CCBulletinBoard.23": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
+				"CCBulletinBoard.22": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
+				"CCBulletinBoard.23": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
 				"CCBulletinBoard.24": "In search of your oldest and most well-loved poetry books. Please leave them down by the pier. I promise I will take the best care of them.^^There's a code scratched underneath: N3XU5-1D-6931",
-				"CCBulletinBoard.25": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
-				"CCBulletinBoard.26": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat 3754",
+				"CCBulletinBoard.25": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
+				"CCBulletinBoard.26": "It all ADZ UP^^Want your add here?^^Contact me on Discord: lemurkat3754",
 				"CCBulletinBoard.27": "MAKE BLOOMS, NOT WAR^^Calling all guerrilla gardeners, art activists and flower fiends! You can add a splash of color to any drab, underused patch of dirt in your area and help bring nature back into our lives. Contact Leah at N3XU5-1D-6228 for instructions!",
 				"CCBulletinBoard.28": "Looking for something new to spice up your taste buds? Want to add some variety to your culinary repertoire? Khadija's Recipe Shop has you covered! From fresh, rare, and exotic ingredients to specialized recipe books, our stock is never the same twice. Come visit our stall, now in Pelican Town! (Disclaimer: we do not sell snake meat, and never will. We apologize for the inconvenience).^^There's a small scribbled note at the bottom of the poster:^Also now selling weapons and blueprints. Weekends only. We don't carry snakeskin products either so don't bother asking.",
 				//Regular CC stuff
@@ -368,8 +370,21 @@ Event codes:
 				"CommunityCenter.015": "It's a mix of textbooks and encylopedias.",
 				"CommunityCenter.016": "A battered and worn copy of the Solarion Chronicles, 6th edition.",
 				"CommunityCenter.017": "Oh, look at all these lovely pamphlets! There's one on walks around the Stardew area.^And here's one on shopping in Grampleton!",
-				"CommunityCenter.019": "\"A rose for my Velotte.\"^^What does it mean? There's a number etched underneath it: 6213"
+				"CommunityCenter.019": "\"A rose for my Velotte.\"^^What does it mean? There's a number etched underneath it: 6213",
+				"CommunityCenter.104": "It's a battered volume on weaving and dyeing, bristling with post-it notes."
 			}
-		}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jasper",
+            "When": {
+                "HasMod": "Lemurkat.NPCJasper"
+            },
+            "Entries": {
+                "Wednesday_Sch1": "{{i18n:Jasper.sch4}}",
+                "Wednesday_Sch2": "{{i18n:Jasper.sch5}}",
+                "Wednesday_Sch3": "{{i18n:Jasper.sch6}}"
+            }
+        },
 	]
 }

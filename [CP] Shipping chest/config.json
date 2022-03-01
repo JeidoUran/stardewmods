@@ -1,5 +1,7 @@
 {
   "ShipBinoption": "2",
   "ShipBinExtra": "moss, flowers",
-  "ShipBinReplace": "true"
+  "ShipBinReplace": "true",
+  "FallColor": "1",
+  "RecolourOverwrite": ""
 }

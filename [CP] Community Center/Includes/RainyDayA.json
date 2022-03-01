@@ -33,6 +33,18 @@
             }
         },
         {
+            "LogName": "Solarion Schedule - Darius",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Darius",
+            "When": {
+                "HasMod": "alexoflexo.darius",
+                "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Saturday"
+            },
+            "Entries": {
+                "rain": "610 Custom_Darius_House 3 4 1/800 Custom_Darius_House 4 12 0 darius_cooking/830 Custom_Darius_House 13 11 2/1100 CommunityCenter 33 13 0 \"Strings\\schedules\\Darius:Solarion_{{Random:So1,So2,So3|key=SolarChr}}\"/1900 Custom_Darius_House 14 5 1 darius_gaming/2400 Custom_Darius_House 2 4 1 darius_sleep"
+            }
+        },
+        {
             "LogName": "Solarion Schedule - Clint",
             "Action": "EditData",
             "Target": "Characters/schedules/Clint",
@@ -73,6 +85,19 @@
                 "Solarion_So1": "{{i18n:RainyDayA.Clint.1}}",
                 "Solarion_So2": "{{i18n:RainyDayA.Clint.2}}",
                 "Solarion_So3": "{{i18n:RainyDayA.Clint.3}}"
+            }
+        },
+        {
+            "LogName": "Solarion Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Darius",
+            "When": {
+                "HasMod": "alexoflexo.darius"
+            },
+            "Entries": {
+                "Solarion_So1": "{{i18n:RainyDayA.Darius.1}}",
+                "Solarion_So2": "{{i18n:RainyDayA.Darius.2}}",
+                "Solarion_So3": "{{i18n:RainyDayA.Darius.3}}"
             }
         },
         {
@@ -122,14 +147,12 @@
             "Target": "Data/CustomNPCExclusions",
             "Entries": {
                 "Clint": "IslandVisit"
-               
             },
             "When": {
                 "Weather": "rain, storm",
-                "HasDialogueAnswer":"696604",
-                "DayOfWeek":"Friday"
+                "HasDialogueAnswer": "696604",
+                "DayOfWeek": "Friday"
             }
         }
-
     ]
 }

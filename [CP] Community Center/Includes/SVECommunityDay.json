@@ -32,7 +32,7 @@
                 "HasMod": "Lemurkat.JacobEloise.CP"
             },
             "Entries": {
-                "22": "630 VetHouse 30 14 1/830 CommunityCenter 15 22 0 Eloise_kneel\"/1700 CommunityCenter 34 17 1/1750 VetHouse 31 5 0/2200 VetHouse 20 4"
+                "22": "630 Custom_ESVetHouse 30 14 1/830 CommunityCenter 15 22 0 Eloise_kneel\"/1700 CommunityCenter 34 17 1/1750 Custom_ESVetHouse 31 5 0/2200 Custom_ESVetHouse 20 4"
                 //\"Strings\\schedules\\Eloise:CommunityDay_Eloise.{{random:01,02,03}}
             }
         },

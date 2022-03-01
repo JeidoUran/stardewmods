@@ -1,0 +1,127 @@
+{
+    "Changes":[
+
+// Changes schedules from Archaeology Center to Community Center
+//Also now school happens on rainy days too
+
+//Penny schedules
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Penny",
+    "Entries": {
+        "Tue": "830 Trailer 6 5 0/900 CommunityCenter 15 19 2/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+        "Wed": "MAIL Jasper_Penny/GOTO Wed_noTute/830 Trailer 6 5 0/900 CommunityCenter 11 20 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+        "Wed_noTute": "GOTO Tue",
+        "Fri": "GOTO Tue",
+        "marriageJob": "830 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3",
+        "marriage_Wed": "MAIL Jasper_Penny/GOTO marriageJob/830 CommunityCenter 11 20 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3"
+                }
+        },    
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Penny",
+    "When": {   "DayOfWeek": "Tuesday, Wednesday, Friday"  },
+    "Entries": {
+	    "9": "GOTO rain",
+	    "9_6": "GOTO rain",
+	    "23": "GOTO rain",
+	    "23_6": "GOTO rain",
+        "rain": "830 Trailer 6 5 0/900 CommunityCenter 15 19 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+        "rain2": "830 Trailer 6 5 0/900 CommunityCenter 15 19 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep"
+            }
+        },
+//Jas schedules        
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Jas",
+    "Entries": {
+        "Tue": "820 CommunityCenter 18 20 3 jas_read/1400 Town 85 103 2/1620 Town 16 91 0/1750 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
+            }
+        },
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Jas",
+    "When": {   "DayOfWeek": "Tuesday, Wednesday, Friday"  },
+    "Entries": {
+	"9": "GOTO rain",
+	"23": "GOTO rain",
+        "rain": "900 CommunityCenter 18 20 3 jas_read/1620 Town 16 91 0/1750 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
+            }
+        },
+//Vincent schedules
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Vincent",
+    "Entries": {
+        "Tue": "900 CommunityCenter 14 21 1 vincent_read_right/1400 Town 83 100 3/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep"
+            }
+        },
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Vincent",
+    "When": {   "DayOfWeek": "Tuesday, Wednesday, Friday"   },
+    "Entries": {
+	"9": "GOTO rain",
+	"23": "GOTO rain",
+        "rain":"900 CommunityCenter 14 21 1 vincent_read_right/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep"
+            }
+        },
+//Eloise schedules
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Eloise",
+    "Entries": {
+        "Tue": "630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.000\"/900 CommunityCenter 17 22 0 Eloise_kneel/1400 Town 88 103 2/1620 Town 17 91 0/1750 AnimalShop 6 5 0 Eloise_read",
+        "Wed": "630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 17 22 0 Eloise_kneel/1400 Town 88 103 2/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
+            }
+        },
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Eloise",
+    "When": {   "DayOfWeek": "Tuesday, Wednesday, Friday"  },
+    "Entries": {
+	"9": "GOTO rain",
+	"23": "GOTO rain",
+        "rain": "630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 17 22 0 Eloise_kneel/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
+            }
+        },  
+//Jacob schedules
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Jacob",
+    "When": {   "DayOfWeek": "Tuesday, Wednesday, Friday"  },
+    "Entries": {     
+        "Tue": "610 VetHouse 34 14 3/630 Town 101 95 3 \"Strings\\schedules\\Jacob:tuesday.000\"/930 VetHouse 5 12 2/1140 JacobOffice 5 5 0/1800 VetHouse 31 5 0/2200 VetHouse 20 4",
+        "rain": "GOTO Wed",
+        "Wed": "610 VetHouse 34 14 3/630 Town 101 95 3 \"Strings\\schedules\\Jacob:tuesday.001\"/930 EastScarpe 19 15 0/1620 EastScarpe 19 67 1/1800 VetHouse 23 15 0/2000 VetHouse 31 5 0/2200 VetHouse 20 4"
+        }   
+    },   
+//Jasper teaches the class on Wednesdays
+//Does not when it rains!
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Jasper",
+    "Entries": {
+        "Wed": "MAIL Jasper_Penny/GOTO Wed_noTute/610 Museum2 18 13 0/900 CommunityCenter 15 19 2 \"Strings\\schedules\\Jasper:015\"/1400 Town 32 78 1/1630 Museum2 18 13 0/1830 Museum2 12 13 2 Jasper_Read",
+        "marriage_Wed": "MAIL Jasper_Penny/GOTO marriage_Wed_NoTute/800 CommunityCenter 15 19 2 \"Strings\\schedules\\Jasper:marriage_{{Random:AM1, AM2, AM3}}\"/1400 Forest 75 50 2 \"Strings\\schedules\\Jasper:marriage_{{Random:For1, For2, For3}}\"/1930 BusStop -1 23 3" 
+                }
+     },
+
+/*
+Penny       ArchaeologyHouse 17 9 2     to      CommunityCenter 15 19 2
+Jas         ArchaeologyHouse 19 10 3    to      CommunityCenter 18 20 3
+Vincent     ArchaeologyHouse 16 10 1    to      CommunityCenter 14 21 1
+Eloise      ArchaeologyHouse 18 12 0    to      CommunityCenter 17 22 0
+
+*/
+
+//Compatibility with Help Penny
+
+{   "Action": "EditData",
+    "Target": "Characters/schedules/Penny",
+    "When": {   "HasMod":"Fellowclown.PennyUpgrade",        "HasDialogueAnswer |contains=77710": "true"},
+   	"Entries": {
+        "Tue": "830 PennysHouse 9 7 0 penny_sit \"Strings\\schedules\\Penny:Upgrade.0014\"/900 CommunityCenter 15 19 2/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 PennysHouse 10 5 1 penny_sleep",
+        "Wed": "MAIL Jasper_Penny/GOTO Wed_noTute/830 PennysHouse 9 7 0 penny_sit \"Strings\\schedules\\Penny:Upgrade.0014\"/900 CommunityCenter 11 20 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1840 PennysHouse 10 5 1 penny_sleep"
+       }
+    },
+    {   "Action": "EditData",
+        "Target": "Characters/schedules/Penny",
+        "When": {   "DayOfWeek": "Tuesday, Wednesday, Friday", "HasMod":"Fellowclown.PennyUpgrade",  "HasDialogueAnswer |contains=77710": "true"  },
+        "Entries": {
+            "rain": "830 PennysHouse 2 5 0/900 CommunityCenter 15 19 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 PennysHouse 10 5 1 penny_sleep",
+            "rain2": "830 PennysHouse 2 5 0/900 CommunityCenter 15 19 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 PennysHouse 10 5 1 penny_sleep"
+                }
+            }
+         ]
+}

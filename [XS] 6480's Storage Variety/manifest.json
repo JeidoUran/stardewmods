@@ -1,0 +1,12 @@
+﻿{
+	"Name": "6480's Storage Variety",
+	"Author": "6480",
+	"Version": "2.1.2",
+	"Description": "Adds more storage items to the game.",
+	"UniqueID": "6480.StorageVariety",
+	"UpdateKeys": [ "Nexus:7807" ],
+	"ContentPackFor": {
+		"UniqueID": "furyx639.ExpandedStorage",
+		"MinimumVersion": "1.7.1-beta"
+	}
+}

@@ -1,0 +1,84 @@
+{
+    "Changes": [
+
+//afternoon Poetry Club        
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Elliott",
+    "Entries": {
+        "rain": "800 ElliottHouse 1 5 0/1000 CommunityCenter 38 20 1 \"Strings\\schedules\\Elliott:PoetryClub_{{Random:PC1, PC2, PC3 |key=PoetryClub}}\"/1700 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
+                   }
+        },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Haley",
+    "Entries": {
+        "rain": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:CCrain.000\"/1030 CommunityCenter 42 29 3 \"Strings\\schedules\\Haley:PoetryClub_{{Random:PC1, PC2, PC3 |key=PoetryClub}}\"/1500 HaleyHouse 7 16 0/2200 HaleyHouse 1 5 3 haley_sleep"
+             }
+        },  
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Leah",
+    "Entries": {
+        "rain": "900 CommunityCenter 39 19 leah_draw \"Strings\\schedules\\Leah:PoetryClub_{{Random:PC1, PC2, PC3 |key=PoetryClub}}\"/1500 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep"
+        }
+        },  
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Isla",
+    "When": {   "HasMod": "PaperNautilus.Isla",
+                "DayOfWeek":"Monday, Tuesday, Wednesday, Thursday", 
+                "HasSeenEvent": "8205022"        },
+    "Entries": {
+        "rain": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/730 UnderwaterCove_Exterior 43 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Isla:Elliott.001\"/1000 CommunityCenter 41 19 \"Strings\\schedules\\Isla:PoetryClub_{{Random:PC1, PC2, PC3 |key=PoetryClub}}\"/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep"
+            }
+        }, 
+
+//Schedule Dialogue
+{	"LogName": "Poetry Strings - Elliott",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Elliott",
+    "Entries": {
+        "PoetryClub_PC1": "A fine example of narrative poetry. Romantic, yet tragic.$2",
+        "PoetryClub_PC2": "The writing is so evocative, I can almost feel the sun on my face, the heat against my skin.$1",
+        "PoetryClub_PC3": "Such bleak imagery, and so forboding! Oh, it fair sends a shiver down my spine.$2"
+            }
+        },
+{	"LogName": "Poetry Strings - Haley",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Haley",
+    "Entries": {
+        "CCrain.000": "Ugh, I can't believe I'm getting up early on a day like today to talk about poetry.$2",
+        "PoetryClub_PC1": "It's so depressing. I wish there was a way they could've been together. But that's poetry isn't it? Romantic misery.$2",
+        "PoetryClub_PC2": "I'm pretty sure the poet's in love with him. Hey @, what sort of day would you compare me to?$1",
+        "PoetryClub_PC3": "Ravens? They're nasty birds. This one's too creepy for me. I bet Sebastian would loves it.$2"
+            }
+        },
+{	"LogName": "Poetry Strings - Leah",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Leah",
+    "Entries": {
+        "PoetryClub_PC1": "I can't say I'm a fan of the whole 'sacrifice your life for a man's' narrative. Especially when he died anyway.$2",
+        "PoetryClub_PC2": "I hope you're not pretending this poem's about you, Elliott!$1",
+        "PoetryClub_PC3": "It's a bit dark and melancholic. The narrator's grief really resonates in the words.$2"
+            }
+        },
+{	"LogName": "Poetry Strings - Isla",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Isla",
+    "When": {   "HasMod": "PaperNautilus.Isla"  },
+    "Entries": {
+        "PoetryClub_PC1": "'The moon was a ghostly galleon tossed upon cloudy seas'. Oh, how Noyes’ evocative words make me think of stormy nights on the Gem Sea.$8",
+        "PoetryClub_PC2": "I often wonder who Shakespeare could have been speaking of…$4",
+        "PoetryClub_PC3": "Poe’s poem always sends cold shivers down my spine. What might the significance of the raven be?"
+            }
+        },
+{   "Action": "EditData", 
+    "Target": "Data/Events/CommunityCenter",
+    "Entries":{ 
+        "69660006/p Haley/p Elliott/p Leah/w rain": "50s/40 21/farmer 33 22 1 Elliott 38 20 1 Haley 39 19 2 Leah 42 20 3/skippable/pause 500/move farmer 0 -5 2 true/speak Elliott \"... whilst I will agree that song lyrics can be quite profound, I must respectably disagree that a song explicitly about ... *coughs*#$b#... intercourse does not constitute poetry.$5\"/pause 500/speak Haley \"Really? Because I read your recommended readings... and some of them were outright scandalous!$3\"/move farmer 5 0 2 true/pause 500/emote Elliott 60/speak Elliott \"The difference, perhaps, is in the subtlety. The metaphor and turn of phrase. This? This is just crass!\"/speak Haley \"Hmm, I never took you for a literary snob, Elliott. Or a prude.\"/faceDirection Haley 0/speak Haley \"Anyway, @'s here. Hey, @, what do you think?#$b#Should popular music count as poetry?\"/quickQuestion #Yes, of course!#No way.#Keep me out of this.#It's subjective.(break)emote Haley 20\\speak Haley \"Hah, see?\"(break)emote Haley 12\\speak Elliott \"Ah, I see @, you have refined tastes too.\"(break)speak Haley \"Spoilsport.\"(break)speak Elliott \"Of course, yes, spoken like a true neutralist.#$b#Poetry, like art, is indeed subjective.\"/pause 500/speak Leah \"Can you two just agree to disagree on this one?#$b#Now, are we going to hear the poem for today, or not?\"/speak Elliott \"I am prepared to agree on a compromise, Haley.\"/faceDirection Haley 2/speak Elliott \"For poetry should, at its base level, evoke emotion, and if your popular music affects you at that level, then so be it.$1\"/emote Haley 60/pause 1000/speak Haley \"Err, thanks. I think.\"/speak Elliott \"Now if you would care to begin the reading for today...\"/pause 1000/speak Haley \"You mean I have to read this... out loud?!$8\"/emote Haley 28/pause 1000/end" 
+            }
+        }
+
+    ]
+}

@@ -1,5 +1,5 @@
 {
-	"Format": "1.20.0",
+	"Format": "1.24.0",
 
 	"ConfigSchema": {
 	
@@ -10,7 +10,7 @@
 					"Default": "true",
 					"Description": "When enabled makes sure craftables on island are always the summer variant"},
 	
-		"NotReplaced": {"AllowValues": "Auto-Grabber, Auto-Petter, Bee House, Bone Mill, Campfire, Cask, Charcoal Kiln, Cheese Press, Chest, Coffee Maker, Cookout Kit, Crab Pot, Crystalarium, Dark Sign, Deconstructor, Farm Computer, Furnace, Garden Pot, Geode Crusher, Hay, Hay Hopper, Heater, Heavy Tapper, Hopper, Incubator, Junimo Chest, Junimo Kart, Keg, Lightning Rod, Loom, Mayonnaise Machine,Mini-Fridge, Mini-Obelisk, Mini-Jukebox, Mini-Shipping Bin, Mushroom plots, Oil Maker, Ostrich Incubator, Prairie King, Preserves Jar, Recycling Machine, Seed Maker, Sewing Machine, Slime Egg-Press, Slime Incubator, Soda Machine, Solar Panel, Sprinklers, Staircase, Statue Of Endless Fortune, Statue Of Perfection, Statue Of True Perfection, Stone Chest, Stone Sign, Tapper, Telephone, Wicked Statue, Wood Chipper, Wood Sign, Workbench, Worm Bin",
+		"NotReplaced": {"AllowValues": "Auto-Grabber, Auto-Petter, Bee House, Bone Mill, Campfire, Cask, Charcoal Kiln, Cheese Press, Chest, Coffee Maker, Cookout Kit, Crab Pot, Crystalarium, Dark Sign, Deconstructor, Farm Computer, Furnace, Garden Pot, Geode Crusher, Hay, Hay Hopper, Heater, Heavy Tapper, Hopper, Incubator, Iron Lamp-post, Junimo Chest, Junimo Kart, Keg, Lightning Rod, Loom, Mayonnaise Machine,Mini-Fridge, Mini-Obelisk, Mini-Jukebox, Mini-Shipping Bin, Mushroom plots, Oil Maker, Ostrich Incubator, Prairie King, Preserves Jar, Recycling Machine, Seed Maker, Sewing Machine, Slime Egg-Press, Slime Incubator, Soda Machine, Solar Panel, Sprinklers, Staircase, Statue Of Endless Fortune, Statue Of Perfection, Statue Of True Perfection, Stone Chest, Stone Sign, Tapper, Telephone, Wicked Statue, Wood Chipper, Wood Lamp-post, Wood Sign, Workbench, Worm Bin",
 					"AllowMultiple": true, 
 					"AllowBlank": true,
 					"Default": ""},
@@ -44,6 +44,8 @@
 					"Default": "true"},
 		"ChKilnVines": {"AllowValues": "true, false",
 					"Default": "true"},
+		"CheesePressExtra": {"AllowValues": "true, false",
+					"Default": "true"},
 		"Chestoption": {"AllowValues": "1, 2",
 					"Default": "1"},
 		"ChestStained": {"AllowValues": "true, false",
@@ -62,6 +64,10 @@
 					"Default": "true"},
 		"GraveStoneVines": {"AllowValues": "true, false",
 					"Default": "true"},
+		"IronLampoption": {"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+					"Default": "4"},
+		"IronLampVines": {"AllowValues": "true, false",
+					"Default": "false"},
 		"JunimoChestoption": {"AllowValues": "1, 2",
 					"Default": "1"},
 		"LawnFlamingoVines": {"AllowValues": "true, false",
@@ -71,6 +77,8 @@
 		"LightningRodFlowers": {"AllowValues": "true, false",
 					"Default": "false"},
 		"LogSectionCracks": {"AllowValues": "true, false",
+					"Default": "true"},
+		"MayoMachineExtra": {"AllowValues": "true, false",
 					"Default": "true"},
 		"Mini-FridgeShelf": {"AllowValues": "true, false",
 					"Default": "false"},
@@ -102,6 +110,10 @@
 					"Default": "true"},
 		"TelephoneOption": {"AllowValues": "1, 2",
 					"Default": "1"},
+		"WoodLampoption": {"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+					"Default": "9"},
+		"WoodLampVines": {"AllowValues": "true, false",
+					"Default": "true"},
 		"WoodSignOption": {"AllowValues": "1, 2, 3, 4, 5, 6, 7",
 					"Default": "2"},
 		"WoodSignVines": {"AllowValues": "true, false",
@@ -340,7 +352,7 @@
 		"Action": "EditImage",
 		"Target": "TileSheets/Craftables",
 		"FromFile": "assets/{{recolor}}/{{season}}_{{BrazierVinesOrMoss |contains=Skull}}.png",
-			"FromArea": { "X": 48, "Y": 594, "Width": 16, "Height": 32 },
+			"FromArea": { "X": 48, "Y": 608, "Width": 16, "Height": 32 },
 			"ToArea": { "X": 80, "Y": 576, "Width": 16, "Height": 32 },
 			"When": { "BrazierReplaced |contains=Skull": true,
 					"DayEvent": "spirit's eve" },
@@ -395,6 +407,16 @@
 			"FromArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32 },
 			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32 },
 			"When": { "NotReplaced |contains=Cheese Press": false },
+		},
+		{
+		"LogName": "Cheese Press no cheese cx",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/ALL/Extra.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32 },
+			"When": { "NotReplaced |contains=Cheese Press": false,
+					"CheesePressExtra": "false" },
 		},
 		
 //Chest	
@@ -610,6 +632,15 @@
 			"ToArea": { "X": 80, "Y": 384, "Width": 48, "Height": 32 },
 			"When": { "NotReplaced |contains=Incubator": false },
 		},
+//Iron Lamp-post
+		{
+		"LogName": "Iron Lamp-post",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/Lamps/{{IronLampVines}}/{{IronLampoption}}_{{season}}.png",
+			"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32 },
+			"When": { "NotReplaced |contains=Iron Lamp-post": false },
+		},
 //Junimo Chest
 		{
 		"LogName": "Junimo Chest",
@@ -735,6 +766,16 @@
 			"FromArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32 },
 			"ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32 },
 			"When": { "NotReplaced |contains=Mayonnaise Machine": false },
+		},
+		{
+		"LogName": "Mayo Machine no jars",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/ALL/Extra.png",
+			"FromArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32 },
+			"When": { "NotReplaced |contains=Mayonnaise Machine": false,
+					"MayoMachineExtra": "false" },
 		},
 //Mushrooms
 		{
@@ -1167,6 +1208,15 @@
 			"FromArea": { "X": 48, "Y": 832, "Width": 48, "Height": 32 },
 			"ToArea": { "X": 48, "Y": 832, "Width": 48, "Height": 32 },
 			"When": { "NotReplaced |contains=Wood Chipper": false },
+		},
+//Wood Lamp-post
+		{
+		"LogName": "Wood Lamp-post",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/Lamps/{{WoodLampVines}}/{{WoodLampoption}}_{{season}}.png",
+			"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32 },
+			"When": { "NotReplaced |contains=Wood Lamp-post": false },
 		},
 //Wood Sign
 		{
@@ -2318,6 +2368,17 @@
 					"IslandOverwrite": true},
 		"Update": "OnLocationChange",
 		},
+//Iron Lamp-post
+		{
+		"LogName": "Iron Lamp-post",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/Lamps/{{IronLampVines}}/{{IronLampoption}}_summer.png",
+			"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32 },
+			"When": { "NotReplaced |contains=Iron Lamp-post": false,
+					"IslandOverwrite": true},
+		"Update": "OnLocationChange",
+		},
 //Lawn Flamingo
 		{
 		"LogName": "Lawn Flamingo",
@@ -2563,6 +2624,17 @@
 					"IslandOverwrite": true},
 		"Update": "OnLocationChange",
 		},
+		{
+		"LogName": "Seasonal Decor fix",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/summer_true.png",
+			"FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+			"ToArea": { "X": 32, "Y": 192, "Width": 32, "Height": 32 },
+			"When": { "DecorationsNotReplaced |contains=Seasonal Decor": false,
+					"IslandOverwrite": true},
+		"Update": "OnLocationChange",
+		},
 //Seasonal Plants
 		{
 		"LogName": "seasonal plants",
@@ -2571,6 +2643,18 @@
 		"FromFile": "assets/{{recolor}}/summer_true.png",
 			"FromArea": { "X": 0, "Y": 736, "Width": 128, "Height": 96 },
 			"ToArea": { "X": 0, "Y": 736, "Width": 128, "Height": 96 },
+			"When": { "DecorationsNotReplaced |contains=Seasonal Plants": false,
+					"IslandOverwrite": true},
+		"Update": "OnLocationChange",
+		},
+		{
+		"LogName": "seasonal plants fix",
+		"Action": "EditImage",
+			"PatchMode": "Overlay",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/summer_true.png",
+			"FromArea": { "X": 0, "Y": 736, "Width": 96, "Height": 96 },
+			"ToArea": { "X": 32, "Y": 736, "Width": 96, "Height": 96 },
 			"When": { "DecorationsNotReplaced |contains=Seasonal Plants": false,
 					"IslandOverwrite": true},
 		"Update": "OnLocationChange",
@@ -2790,6 +2874,17 @@
 			"FromArea": { "X": 48, "Y": 320, "Width": 32, "Height": 32 },
 			"ToArea": { "X": 48, "Y": 320, "Width": 32, "Height": 32 },
 			"When": { "NotReplaced |contains=Wicked Statue": false,
+					"IslandOverwrite": true},
+		"Update": "OnLocationChange",
+		},
+//Wood Lamp-post
+		{
+		"LogName": "Wood Lamp-post",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/Lamps/{{WoodLampVines}}/{{WoodLampoption}}_summer.png",
+			"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32 },
+			"When": { "NotReplaced |contains=Wood Lamp-post": false,
 					"IslandOverwrite": true},
 		"Update": "OnLocationChange",
 		},

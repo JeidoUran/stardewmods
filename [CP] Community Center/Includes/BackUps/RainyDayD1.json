@@ -1,0 +1,63 @@
+{
+    "Changes": [
+
+{     "Action": "EditMap",
+    "Target": "Maps/CommunityCenter_refurbished",
+    "MapProperties": {   "Music": "sampractice"     }
+        },
+
+{   "LogName": "Schedule",  
+    "Action":  "EditData",  
+    "Target": "Characters/schedules/Sam",
+    "Entries": {
+        "rain": "1000 SamHouse 15 13 0/1100 CommunityCenter 27 18 2 sam_guitar \"Strings\\schedules\\Sam:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 SamHouse 8 6 3 sam_gameboy/1700 SamHouse 17 13 0/1830 SamHouse 22 16 1/2000 SamHouse 22 13 1 sam_sleep",
+        "rain2": "1000 SamHouse 15 13 0/1100 CommunityCenter 27 18 2 sam_guitar \"Strings\\schedules\\Sam:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 Saloon 38 18 0/1940 SamHouse 22 13 1 sam_sleep"
+            }
+        },
+{   "LogName": "Schedule",  
+    "Action":  "EditData",  
+    "Target": "Characters/schedules/Penny",
+    "When": {   "DayOfWeek":"Thursday" },
+    "Entries": {
+        "rain": "900 Trailer 1 8 0/1030 CommunityCenter 23 17 2 penny_read  \"Strings\\schedules\\Penny:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 CommunityCenter 46 13 0/1800 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+        "rain2": "900 Trailer 1 8 0/1030 CommunityCenter 23 17 2 penny_read  \"Strings\\schedules\\Penny:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 CommunityCenter 46 13 0/1800 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep"
+        }
+    },        
+{   "LogName": "Schedule",  
+    "Action":  "EditData",  
+    "Target": "Characters/schedules/Sheila",
+    "When": { "HasMod":"CPBoardingHouse", "DayOfWeek":"Sunday"  },
+    "Entries": {
+        "rain": "610 BoardingHouse 15 7 2 sheila_coffee \"Strings\\schedules\\Sheila:breakfast.000\"/900 BoardingHouse 29 4 0/1000 CommunityCenter 24 8 2 sheila_read \"Strings\\schedules\\Sheila:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 BoardingHouse 25 4 2/2200 BuffalosRanch 3 5 2"
+            }
+        },
+{	"LogName": "Jamtime - Sam",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Sam",
+    "Entries": {
+        "Guitar_Gt1": "%Sam seems lost in his music. Better not disturb him.",
+        "Guitar_Gt2": "Oh, hi @! What do you think? I wrote it for a certain someone. Oh, I'm not saying who.$10",
+        "Guitar_Gt3": "Dad needed quiet this morning. And here I can play as loud as I like!"
+            }
+        },
+{	"LogName": "Jamtime - Penny",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Penny",
+    "Entries": {
+        "Guitar_Gt1": "I love listening to Sam play. He's good, isn't he?$1",
+        "Guitar_Gt2": "Oh? I've read this paragraph six times already.$4",
+        "Guitar_Gt3": "This book has an excellent soundtrack, don't you think?$1"
+            }
+        },
+{	"LogName": "Jamtime - Sheila",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Sheila",
+    "When": { "HasMod":"CPBoardingHouse"    },
+    "Entries": {
+        "Guitar_Gt1": "Oh, am I here to watch Sam play? Of course not! I'm here to read my book, see?$1",
+        "Guitar_Gt2": "*sighs* Sometimes I even wonder if he realizes I exist.$2",
+        "Guitar_Gt3": "Ever wished romance were like it was in books? Yeah, me too.$2"
+            }
+        }
+    ]
+}

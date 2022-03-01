@@ -1,0 +1,157 @@
+{
+    "Changes": [
+
+//Woodworking with Robin
+
+{   "Action": "EditMap",
+	"Target": "Maps/CommunityCenter_Refurbished",
+	"FromFile": "assets/CommunityCenter_Classroom_EggFest.tmx",
+	"FromArea": { "X": 21, "Y": 26, "Width": 5, "Height": 4 },
+    "ToArea": { "X": 8, "Y": 20, "Width": 5, "Height": 4 },
+    "When": {   "weather":"rain, storm"   }
+    },
+
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Robin",
+    "Entries": {	
+        "rain": "800 ScienceHouse 8 18 2/1400 CommunityCenter 8 21 1 \"Strings\\schedules\\Robin:Woodwork_{{Random:WW1, WW2, WW3 |key=WoodWork}}/2000 ScienceHouse 21 4 1 robin_sleep"  }
+        },      
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Jade",
+    "When": {   "HasMod":"malic.cp.jadeNPC" 	},
+    "Entries": {	
+        "rain": "900 CommunityCenter 23 9 jade_groundread/1630 CommunityCenter 9 23 0 \"Strings\\schedules\\Jade:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 {{JadeEnd}}"   }
+    },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Shane",
+    "Entries": {	
+            "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\Shane:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 27 4 1 shane_sleep"
+        }
+    },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Jas",
+    "Entries": {	
+            "rain": "900 AnimalShop 7 5 0/1100 AnimalShop 16 16 2 square_3_3/1400 AnimalShop 25 17 1/1430 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 1 7 3 jas_sleep"
+            }
+        },
+    //If a school day, Jas stays after class. Shane will (hopefully) join her.
+    {   "Action": "EditData",
+        "Target": "Characters/schedules/Jas",
+        "When": {   "DayOfWeek": "Tuesday, Wednesday, Friday",  "weather":"rain, storm"   },
+        "Entries": {
+            "9":    "GOTO rain",
+            "23":   "GOTO rain",
+            "rain": "900 CommunityCenter 18 20 3 jas_read/1620 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 1 7 3 jas_sleep"
+            }
+        },
+
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/MisterGinger",
+    "When": {   "HasMod":"LemurKat.Mr.Ginger.NPC"   },
+    "Entries": {	
+            "rain": "800 AnimalShop 5 5 2 MrG_Grooming/1110 AnimalShop 7 16 2 MrG_Grooming/1400 AnimalShop 22 14 2/1430 CommunityCenter 13 19 2 MrG_Grooming \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 3 5 2 MrG_Sleep"
+        }
+    },
+            {   "LogName": "Schedule",  
+                "Action": "EditData",  
+                "Target": "Characters/schedules/MisterGinger",
+                "When": {   "HasMod":"LemurKat.Tristan.CP", "HasSeenEvent":"5295002", "Spouse |contains=Shane":false   },
+                "Entries": {	
+                    "rain": "0800 ESHouse1 20 19 0/1100 ESHouse1 7 18 misterginger_knit/1200 CommunityCenter 13 18 2 misterginger_knit \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW4, WW5, WW6}}/2000 ESHouse1 23 4 2 misterginger_sleep"
+                        }
+                },
+        {   "LogName": "Schedule",  
+            "Action": "EditData",  
+            "Target": "Characters/schedules/MisterGinger",
+            "When": {   "HasMod":"LemurKat.Tristan.CP", "HasSeenEvent":"5295000", "Spouse |contains=Shane":true   },
+            "Entries": {	
+                    "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW7, WW8, WW9}}/2000 ESHouse1 23 4 2 misterginger_sleep"
+                    }
+            },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Harvey",
+    "Entries": {	
+    "rain": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 CommunityCenter 11 23 0 \"Strings\\schedules\\Harvey:Woodwork_{{Random:WW1, WW2, WW3}/2000 HarveyRoom 13 4 1 harvey_sleep"
+        }
+    },
+
+//Schedule Dialogue    
+{	"LogName": "Woodwork class - Robin",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Robin",
+    "Entries": {
+        "Woodwork_WW1": "Birdhouses... they're small, easy to make and practical.$1",
+        "Woodwork_WW2": "Would you like to join the class sometime? Oh, I suppose you're too busy.",
+        "Woodwork_WW3": "Creating something with your own hands is really rewarding."
+            }
+        },
+{	"LogName": "Woodwork class - Shane",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Shane",
+    "Entries": {
+        "Woodwork_WW1": "Gah, this is harder than it looks, okay?$2",
+        "Woodwork_WW2": "Welp, paint everywhere... glad I wore my old clothes.$1",
+        "Woodwork_WW3": "Maybe I should let Jas finish mine for me. No bird's gonna want to nest in here.$2"
+            }
+        },
+{	"LogName": "Woodwork class - Jas",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Jas",
+    "Entries": {
+        "Woodwork_WW1": "I hope Jeremy and his ladyfriend like the home I'm making for them!$1",
+        "Woodwork_WW2": "I offered to help Uncle Shane with his house... but he just scowled.$3",
+        "Woodwork_WW3": "These houses are going to be so cosy! I hope we get lots of baby birds this year.$1"
+            }
+        },
+{	"LogName": "Woodwork class - MisterGinger",
+    "Action": "EditData",
+    "Target": "Strings/schedules/MisterGinger",
+    "When": {   "HasMod":"LemurKat.Mr.Ginger.NPC", "HasSeenEvent |contains=50706121":false    },
+    "Entries": {
+        "Woodwork_WW1": "Mirrip!$3",
+        "Woodwork_WW2": "Murrr?",
+        "Woodwork_WW3": "Mirp!$1"
+                   }
+        },
+            {	"LogName": "Woodwork class - MisterGinger",
+                "Action": "EditData",
+                "Target": "Strings/schedules/MisterGinger",
+                "When": {   "HasMod":"LemurKat.Mr.Ginger.NPC", "HasSeenEvent": "50706121"   },
+                "Entries": {
+                    "Woodwork_WW1": "She's building me a birdhouse. Imagine that, my own private pantry.$1",
+                    "Woodwork_WW2": "What? I can't help her. Oh, you think you're so smug with your fingers and all.",
+                    "Woodwork_WW3": "Cosy, isn't it? Maybe I should come to school with Jas more often. Who knows? I might even learn something.",
+                    "Woodwork_WW4": "Glad Shane's finally stepped into the godfather role, now he's got a little competition.$1",
+                    "Woodwork_WW5": "Jas's birdhouse looks better than Shane's. Me? Oh, I'd be useless. Not even going to try.$1",
+                    "Woodwork_WW6": "I'm going to knit Shane a scarf. What color do you think would suit him? Hah, I know he'd never wear it.",
+                    "Woodwork_WW7": "This design? Oh, it's called surrealism. The birds are going to love it.$1",
+                    "Woodwork_WW8": "Drat... I've put the perch above the hole. Again...$2",
+                    "Woodwork_WW9": "What do you mean a bird can't fit in there? They're small. Okay... maybe not _that_ small!$3"
+                        }
+                    },
+{	"LogName": "Woodwork class - Harvey",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Harvey",
+    "Entries": {
+        "Woodwork_WW1": "I've had a lot of practise painting small things. Do you like it, @?$2",
+        "Woodwork_WW2": "%Harvey is focussed intently on his bird house. He's doing a good job.",
+        "Woodwork_WW3": "It's nice to get out and meet people outside of work. Don't you think?$1"
+            }
+        },
+{	"LogName": "Woodwork class - Jade",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Jade",
+    "Entries": {
+        "Woodwork_WW1": "If I make this good enough... maybe a fairy will move in.$4",
+        "Woodwork_WW2": "Oh... it's crooked. Again. How has Jas got hers so neat?$2",
+        "Woodwork_WW3": "Why don't you join us, @? Birds are good for pest control. Well, except when they are the pest!"
+            }
+        }
+    ]
+}
