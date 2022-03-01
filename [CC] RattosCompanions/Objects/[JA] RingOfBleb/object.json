@@ -1,5 +1,5 @@
 {
-  "Name": "Jeido.Rings.RingOfWhiteSnoot",
+  "Name": "Jeido.Rings.RingOfBleb",
   "Companions": {
     "WhiteSnoot": {
       "NumberToSummon": 1
@@ -13,6 +13,6 @@
   "PurchaseFrom": "HatMouse",
   "PurchasePrice": 100,
   "NameLocalization": {
-    "en": "Ring of White Snoot"
+    "en": "Ring of Bleb"
   }
 }
