@@ -1,11 +1,11 @@
 {
   "Name": "Jeido.Rings.RingOfLilly",
   "Companions": {
-    "BlackSnoot": {
+    "Lilly": {
       "NumberToSummon": 1
     }
   },
-  "Description": "This ring is associated with the deity known as "Lilly".",
+  "Description": "This ring is associated with the deity known as \"Lilly\".",
   "Category": "Ring",
   "Recipe": null,
   "Price": 0,
