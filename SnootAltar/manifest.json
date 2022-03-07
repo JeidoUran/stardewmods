@@ -1,0 +1,20 @@
+{
+    "Name": "Altar of White Snoot",
+    "Author": "Jeido",
+    "Version": "1.0.0",
+    "Description": "Adds an altar to make cheese offerings to the goddess White Snoot",
+    "UniqueID": "jeido.whitesnootaltar",
+    "UpdateKeys": [],
+    "MinimumApiVersion": "3.0.0",
+    "ContentPackFor":
+    {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+    {
+        "UniqueID": "Platonymous.TMXLoader"
+    },
+    {
+        "UniqueID": "Platonymous.Toolkit"
+    }]
+}

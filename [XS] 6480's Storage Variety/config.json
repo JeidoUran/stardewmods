@@ -1,0 +1,68 @@
+{
+  "Ice Cooler": {
+    "Capacity": 36,
+    "EnabledFeatures": [
+      "AccessCarried",
+      "CanCarry",
+      "CraftFromChest",
+      "StashToChest",
+      "Unplaceable"
+    ]
+  },
+  "Lumber Pile": {
+    "Capacity": 48,
+    "EnabledFeatures": [
+      "CraftFromChest",
+      "StashToChest"
+    ]
+  },
+  "Wooden Cabinet": {
+    "Capacity": 60,
+    "EnabledFeatures": [
+      "CraftFromChest",
+      "StashToChest"
+    ]
+  },
+  "Cigar Box": {
+    "Capacity": 12,
+    "EnabledFeatures": [
+      "AccessCarried",
+      "CanCarry",
+      "CraftFromChest",
+      "StashToChest"
+    ]
+  },
+  "Wrought-Iron Cellar": {
+    "Capacity": 96,
+    "EnabledFeatures": [
+      "CraftFromChest",
+      "StashToChest"
+    ]
+  },
+  "Mini Storage Shed": {
+    "Capacity": 96,
+    "EnabledFeatures": [
+      "CraftFromChest",
+      "StashToChest"
+    ]
+  },
+  "Dimensional Portal": {
+    "Capacity": 24,
+    "EnabledFeatures": [
+      "AccessCarried",
+      "CraftFromChest",
+      "StashToChest",
+      "Unplaceable"
+    ]
+  },
+  "Adventurer's Pack": {
+    "Capacity": 12,
+    "EnabledFeatures": [
+      "AccessCarried",
+      "CraftFromChest",
+      "StashToChest",
+      "Unplaceable",
+      "VacuumItems"
+    ]
+  }
+}

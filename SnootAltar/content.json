@@ -1,0 +1,32 @@
+{
+    "Format": "1.25.0",
+   "CustomLocations": [
+      // add the in-game location
+      {
+         "Name": "Custom_Jeido_AltarWhiteSnoot",
+         "FromMapFile": "assets/Altar_WhiteSnoot.tmx"
+      }
+   ],
+   "Changes": [
+      // add a warp to the new location from Abigail's room
+      {
+         "Action": "EditMap",
+         "Target": "Maps/FarmCave",
+         "AddWarps": [
+            "6 3 Custom_Jeido_AltarWhiteSnoot 9 13"
+         ]
+      },
+      {
+        "Action": "EditMap",
+        "Target": "Maps/FarmCave",
+        "FromFile": "assets/ladder.tmx",
+        "ToArea":
+        {
+            "X": 6,
+            "Y": 0,
+            "Width": 1,
+            "Height": 4
+        }
+    }
+    ]
+}
