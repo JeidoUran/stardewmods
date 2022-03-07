@@ -1,0 +1,30 @@
+[
+  {
+    "Child_Name": "Helio",
+    "Child_Adopted": "False",
+    "Child_Sprites": "Emily",
+    "Spouse_Name": "Emily",
+    "Spouse_Married": "True"
+  },
+  {
+    "Child_Name": "Selene",
+    "Child_Adopted": "False",
+    "Child_Sprites": "Emily",
+    "Spouse_Name": "Emily",
+    "Spouse_Married": "True"
+  },
+  {
+    "Child_Name": "Snatchers",
+    "Child_Adopted": "True",
+    "Child_Sprites": "Leah",
+    "Spouse_Name": "Leah",
+    "Spouse_Married": "True"
+  },
+  {
+    "Child_Name": "Sninnie",
+    "Child_Adopted": "True",
+    "Child_Sprites": "Leah",
+    "Spouse_Name": "Leah",
+    "Spouse_Married": "True"
+  }
+]
