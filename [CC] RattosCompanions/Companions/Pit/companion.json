@@ -6,7 +6,7 @@
   "SpawnOffsetX": 0, // X offset (from player) of where to spawn | Note: Negative values will spawn to left of player, positive will spawn to right of player
   "SpawnOffsetY": 0, // Y offset (from player) of where to spawn | Note: Negative values will spawn above player head, positive will spawn below player head
   "InspectionDialogue": "It's Pit! He looks at you and makes an all-too-familiar sneezing noise.",
-  "IdleBehavior": "Wander", // Optional parameter, determines how the companion acts while idle | Options: [Nothing, Hover, Wander]
+  "IdleBehavior": "Nothing", // Optional parameter, determines how the companion acts while idle | Options: [Nothing, Hover, Wander]
 
   "Colors": [ // Optional parameter, Takes an array of colors (RGBA values) to overlay on the sprite | NOTE: If multiple colors are given, then one will be chosen randomly on each spawn
     [ 255, 255, 255, 255 ]
@@ -44,8 +44,8 @@
     "Duration": 100,
 
     "IdleAnimation": {
-      "StartingFrame": 20,
-      "NumberOfFrames": 2,
+      "StartingFrame": 21,
+      "NumberOfFrames": 1,
       "Duration": 500
     }
   },
@@ -57,8 +57,8 @@
     "Duration": 100,
 
     "IdleAnimation": {
-      "StartingFrame": 24,
-      "NumberOfFrames": 2,
+      "StartingFrame": 27,
+      "NumberOfFrames": 1,
       "Duration": 500
     }
   },
@@ -70,7 +70,7 @@
     "Duration": 100,
 
     "IdleAnimation": {
-      "StartingFrame": 12,
+      "StartingFrame": 23,
       "NumberOfFrames": 1,
       "Duration": 500
     }
@@ -83,7 +83,7 @@
     "Duration": 100,
 
     "IdleAnimation": {
-      "StartingFrame": 4,
+      "StartingFrame": 19,
       "NumberOfFrames": 1,
       "Duration": 500
     }

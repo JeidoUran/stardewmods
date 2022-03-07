@@ -1,0 +1,17 @@
+{
+  "Name": "Ann's Hair Clip",
+  "FrontAccessory": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X":0,
+      "Y": 0
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 32
+    }
+  }
+}

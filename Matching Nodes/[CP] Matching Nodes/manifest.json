@@ -1,0 +1,41 @@
+{
+  "Name": "Matching Nodes",
+  "Author": "Eryk601",
+  "Version": "1.0.2",
+  "Description": "Dynamically changes textures of mining nodes, so that they match their surroundings' and other nearby rocks' colors.",
+  "UniqueID": "Eryk601.MatchingNodes",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Vertigon.MinesTokens",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "TheMightyAmondee.CustomTokens",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "flashshifter.GrandpasFarm",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "flashshifter.immersivefarm2remastered",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "LemurKat.EastScarpe.SMAPI",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Tarniyar.CP.WalkToDesert",
+      "IsRequired": false
+    }
+  ]
+}

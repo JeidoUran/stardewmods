@@ -1,0 +1,101 @@
+{
+  "Name": "Horn (Single Pristmatic)",
+
+	// FRONT
+  "FrontAccessory": {
+    "IsPrismatic": true,
+    "PrismaticAnimationSpeedMultiplier	": 2.0,
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 2
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// RIGHT
+  "RightAccessory": {
+    "IsPrismatic": true,
+    "PrismaticAnimationSpeedMultiplier	": 2.0,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -1,
+      "Y": 0
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// LEFT
+  "LeftAccessory": {
+    "IsPrismatic": true,
+    "PrismaticAnimationSpeedMultiplier	": 2.0,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 1,
+      "Y": 0
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// BACK
+  "BackAccessory": {
+    "IsPrismatic": true,
+    "PrismaticAnimationSpeedMultiplier	": 2.0,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -2
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Gummi's Persona 5 Hairstyles",
+  "Author": "GummiFrog",
+  "Version": "1.5.0",
+  "Description": "Hairstyles from Persona 5's cast and crew",
+  "UniqueID": "GummiFrog.PersonaHair",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.1.0"
+  }
+}
